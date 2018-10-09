@@ -1,3 +1,0 @@
-{% assign minutes = content | number_of_words | divided_by: 180 %}
-{% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
-{{ minutes | pluralize: "minute" }}

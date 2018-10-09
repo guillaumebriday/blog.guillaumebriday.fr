@@ -1,9 +1,7 @@
-_site
-_drafts
-.sass-cache
-.jekyll-metadata
-js
-css
-fonts
-node_modules
-_includes/head.html
+node_modules/
+public
+.gatsby-context.js
+.DS_Store
+.intermediate-representation/
+.cache/
+yarn.lock
