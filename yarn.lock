@@ -5006,10 +5006,10 @@ gatsby-cli@^1.1.58:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-cli@^2.7.16:
-  version "2.7.16"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.7.16.tgz#5ba593ba2f0b7b96793ec82f51ad081207bf9591"
-  integrity sha512-5RMx2yCOWUkNOHR6LdsMhZMQ8a8OZf22ETKnknUIWFNuSqD1ruNtHpYx7UPfwLTJ/LQD4EVYdeu95Xa+NbMClA==
+gatsby-cli@^2.7.17:
+  version "2.7.17"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.7.17.tgz#5c2e2a453ff97c505e2540a7e5f7c9104993fb4b"
+  integrity sha512-VqW8jKRpv3Ko7NLzn3tZcPitvLEHRRJc3Zla3ug9oavXTuV2m/r24HAyyJM1ZCliBP0YWa8PCYxUrL2ezywBqQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/runtime" "^7.0.0"
@@ -5049,7 +5049,7 @@ gatsby-cli@^2.7.16:
     yargs "^12.0.5"
     yurnalist "^1.0.5"
   optionalDependencies:
-    ink "^2.0.5"
+    ink "^2.3.0"
     ink-spinner "^3.0.1"
 
 gatsby-graphiql-explorer@^0.2.3:
@@ -5375,10 +5375,10 @@ gatsby-transformer-yaml@2.2.3:
     lodash "^4.17.14"
     unist-util-select "^1.5.0"
 
-gatsby@2.13.30:
-  version "2.13.30"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.13.30.tgz#5c37f37ac46db0916adec2b57252c980bbfe8423"
-  integrity sha512-CCTe5EsTtvSIE20okrgEotGtz+2RTEnCE0qspNgKbCAUvmfIQA9umwzIKAJLJPoKErhepuYOtluRJjNSJJGe5A==
+gatsby@2.13.31:
+  version "2.13.31"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.13.31.tgz#c9fff86bf6b15ad808c20f9096aa24c37a382c84"
+  integrity sha512-Oi/M9aD1wNTP+/3xTz5otJ3mPcYgaH3oOV1QFPjOUAozWB8sI31pjWta+8TkqHPN6jxag/quVaQe/LiqgZ/IEA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5437,7 +5437,7 @@ gatsby@2.13.30:
     flat "^4.0.0"
     fs-exists-cached "1.0.0"
     fs-extra "^5.0.0"
-    gatsby-cli "^2.7.16"
+    gatsby-cli "^2.7.17"
     gatsby-graphiql-explorer "^0.2.3"
     gatsby-link "^2.2.2"
     gatsby-plugin-page-creator "^2.1.5"
@@ -6475,10 +6475,10 @@ ink-spinner@^3.0.1:
     cli-spinners "^1.0.0"
     prop-types "^15.5.10"
 
-ink@^2.0.5:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/ink/-/ink-2.2.0.tgz#8231cbaf03799634cb333ec4e461f50e25e93fc0"
-  integrity sha512-BQl7jpmLxPqFGjdQdgXQS0+mAyn1BHkEW1YXur3dahNNwLB6MWsfAZ1GWVdj+Mbpmj+u33KaFOosw3067t3d9g==
+ink@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/ink/-/ink-2.3.0.tgz#222136be17bb72fc742e19090483e7e0e7dc3690"
+  integrity sha512-931rgXHAS3hM++8ygWPOBeHOFwTzHh3pDAVZtiBVOUH6tVvJijym43ODUy22ySo2NwYUFeR/Zj3xuWzBEKMiHw==
   dependencies:
     "@types/react" "^16.8.6"
     arrify "^1.0.1"
