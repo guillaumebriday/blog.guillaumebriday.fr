@@ -5186,10 +5186,10 @@ gatsby-plugin-page-creator@^2.1.5:
     lodash "^4.17.14"
     micromatch "^3.1.10"
 
-gatsby-plugin-postcss@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-2.1.2.tgz#502be5f8f47538d736ff0048c7c008a35ecdb852"
-  integrity sha512-PUCaqXkHBAUZFLxmibg7rx62iZO5Zrz7O9AYrJCEx5VAMezBChg/7aOMuAq99AJLBqNE6/WugMH1AXuVdJnqfA==
+gatsby-plugin-postcss@2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-2.1.3.tgz#3f4b52aa32360f7b90534ed53138d34640f17c00"
+  integrity sha512-E9p7HgeaFhX8N3rw/hkEVc75Gcd7XRWsNfiGsIjUBZiPz8/jodv8iporLONNOEZgg0bigO90KOnH+hnTtY634A==
   dependencies:
     "@babel/runtime" "^7.0.0"
     postcss-loader "^3.0.0"
