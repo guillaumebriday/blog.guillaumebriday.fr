@@ -177,6 +177,7 @@ module.exports = {
             }
           `,
             output: '/feed.xml',
+            title: 'Guillaume Briday'
           },
         ],
       },
