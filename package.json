@@ -16,7 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "5.10.2",
     "@fortawesome/react-fontawesome": "0.1.4",
     "algoliasearch": "3.34.0",
-    "gatsby": "2.15.0",
+    "gatsby": "2.15.1",
     "gatsby-image": "2.2.15",
     "gatsby-plugin-algolia": "0.3.3",
     "gatsby-plugin-feed": "2.3.9",
