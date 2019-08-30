@@ -5767,10 +5767,10 @@ gatsby-plugin-layout@1.1.5:
   dependencies:
     "@babel/runtime" "^7.5.5"
 
-gatsby-plugin-manifest@2.2.10:
-  version "2.2.10"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.10.tgz#b4b3cc52390979bb34615302ea4aed6e5b0cbb68"
-  integrity sha512-gU8qBd5DFL00/PY0i8X2Va9+tyJ2R3ebEhugEyDBIhd498aC1KheNsH7gSTd/N9tXBbFRQ8RM6K/503osP5j/A==
+gatsby-plugin-manifest@2.2.11:
+  version "2.2.11"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.11.tgz#4ed905dc24cabd8f23d3bfae3c9259ad81852222"
+  integrity sha512-7+ncSNNRLgSgM7KP43BcIOO4LlRXiN/6o9R8lR/2bWaExOuUafuOjjBNPpTz8cgU2T11MEaahq0Oqec/2yFO9A==
   dependencies:
     "@babel/runtime" "^7.5.5"
     gatsby-core-utils "^1.0.6"
@@ -5919,10 +5919,10 @@ gatsby-remark-images@3.1.19:
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.1.2"
 
-gatsby-remark-prismjs@3.3.9:
-  version "3.3.9"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.3.9.tgz#20eb5fdf1d5481672517058216e8e817fc43c986"
-  integrity sha512-23IoJjj6/opxHAW6QfLGQaO8enA+JK6fYJXwcJ3F+++AcN0EIHM3Sc3sRz9GxuSni2PW9MlWHKo5noqrlabUjA==
+gatsby-remark-prismjs@3.3.10:
+  version "3.3.10"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.3.10.tgz#4e8bb96cb0a049eff39e40a7d18535d6e9cb69a1"
+  integrity sha512-QibUFrT/rKdaHfKC31ND2BFM6Xt9icmw84hgG3RMdsTVG8jnYm9+xSpBpCqkIzRCnc3L/E28BYBKs2kAUUnorA==
   dependencies:
     "@babel/runtime" "^7.5.5"
     parse-numeric-range "^0.0.2"
