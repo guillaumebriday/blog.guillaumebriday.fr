@@ -38,3 +38,12 @@
   description: |
     Retour d'expérience après 3 ans à travailler avec Vue, React, Laravel et Rails.
     Présentation des différentes approches d'intégrations possibles de ces technologies entre elles et des problématiques et solutions que cela engendre.
+
+- title: "Pourquoi créer des librairies JavaScript et comment le faire avec Rollup"
+  date: 2020-01-05
+  slides_url: https://build-your-javascript-libraries-with-rollup.netlify.com/
+  meetup_url: https://www.meetup.com/Vue-js-Lyon/events/267990858/
+  video_url: https://youtu.be/6pDK7d60xU8?t=317
+  description: |
+    Vous vous êtes déjà trouvé dans la situation où vous pensiez avoir besoin d'extraire un bout de code dans une librairie JS pour le réutiliser de projet en projet ?
+    Je présente ici dans quelles situations cela peut être intéressant ou pas et comment le mettre en place très facilement avec Rollup.
