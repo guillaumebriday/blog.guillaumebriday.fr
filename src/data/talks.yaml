@@ -47,3 +47,12 @@
   description: |
     Vous vous êtes déjà trouvé dans la situation où vous pensiez avoir besoin d'extraire un bout de code dans une librairie JS pour le réutiliser de projet en projet ?
     Je présente ici dans quelles situations cela peut être intéressant ou pas et comment le mettre en place très facilement avec Rollup.
+
+- title: "Bonnes ou mauvaises pratiques ? Parlons plutôt de contexte"
+  date: 2020-02-19
+  slides_url: https://docs.google.com/presentation/d/1JLVDBEtfhzZRk_MaD6bYTwI03boLPhBdG3nBRkC7dtE/edit?usp=sharing
+  meetup_url: https://www.meetup.com/LyonRB/events/268033713
+  video_url: https://www.youtube.com/watch?v=aWv9NWQPvu4
+  description: |
+    Sur la base de nos expériences personnelles, nous allons vous partager des clés de compréhension pour vous aider à déterminer si vos pratiques de code sont adéquates ou non selon le contexte.
+    Nous parlerons du contexte de votre code en tant que solution à des problématiques de vrais utilisateurs, mais aussi le votre en tant que développeur Web apprenant ou expérimenté.
