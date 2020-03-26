@@ -93,6 +93,10 @@ pre {
   }
 }
 
+.gatsby-image-wrapper {
+  height: 100%;
+}
+
 .gatsby-image-wrapper.rounded-full img {
   @apply rounded-full;
 }
