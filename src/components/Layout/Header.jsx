@@ -11,7 +11,7 @@ const searchClient = algoliasearch(
 )
 
 export default ({ isBlog }) => {
-  const activeClassName = isActive => {
+  const activeClassName = (isActive) => {
     let classes =
       'header-link flex-shrink-0 hover:no-underline hover:text-indigo-500 relative mr-8 my-2 lg:my-0 font-semibold'
     let activeClasses = isActive ? 'active text-indigo-500' : 'text-gray-900'

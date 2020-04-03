@@ -67,7 +67,7 @@ class Gallery extends Component {
     const gallery = images.map((obj, i) => {
       return (
         <article key={i}>
-          <a href={obj.src} onClick={e => this.openLightbox(i, e)}>
+          <a href={obj.src} onClick={(e) => this.openLightbox(i, e)}>
             <Img fluid={obj.fluid} />
           </a>
         </article>

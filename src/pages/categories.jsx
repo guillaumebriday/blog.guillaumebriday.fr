@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 
-const slugify = string => {
+const slugify = (string) => {
   return string
     .trim()
     .toLowerCase()
@@ -22,7 +22,7 @@ export default ({
       <h1>Catégories</h1>
 
       <ul className="list-reset pt-4 pb-8 border-b overflow-x-scroll whitespace-no-wrap shadow-md md:shadow-none px-3 -mx-3">
-        {group.map(category => (
+        {group.map((category) => (
           <li
             key={category.fieldValue}
             className="inline btn btn--lightest btn--sm mr-2"
@@ -35,7 +35,7 @@ export default ({
       </ul>
 
       <ul className="list-reset mb-8">
-        {group.map(category => (
+        {group.map((category) => (
           <React.Fragment key={category.fieldValue}>
             <div id={slugify(category.fieldValue)} className="mt-12 mb-2">
               <h2 className="inline btn btn--lightest btn--sm">

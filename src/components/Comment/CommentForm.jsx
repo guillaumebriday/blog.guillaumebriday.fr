@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const encode = data => {
+const encode = (data) => {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
     .join('&')
 }
 
@@ -33,7 +33,7 @@ export default class CommentForm extends Component {
     )
   }
 
-  handleChange = e => {
+  handleChange = (e) => {
     this.setState({
       form: {
         ...this.state.form,
@@ -42,7 +42,7 @@ export default class CommentForm extends Component {
     })
   }
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault()
 
     if (this.isDisabled()) {

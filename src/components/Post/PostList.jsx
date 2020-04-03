@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 export default ({ posts }) => (
   <ul>
     {posts
-      .filter(post => post.node.frontmatter.title.length > 0)
+      .filter((post) => post.node.frontmatter.title.length > 0)
       .map(({ node: post }) => (
         <li
           className="mb-8"

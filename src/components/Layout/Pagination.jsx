@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export default function({ pageContext: { currentPage, numPages } }) {
+export default function ({ pageContext: { currentPage, numPages } }) {
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
   const prevPage =
@@ -133,8 +133,8 @@ export default function({ pageContext: { currentPage, numPages } }) {
       {prevTag}
 
       <div className="mx-4 flex">
-        {pages.map(page => {
-          const activeClassName = page => {
+        {pages.map((page) => {
+          const activeClassName = (page) => {
             let classes =
               'mx-1 rounded-full h-10 w-10 flex items-center justify-center'
 
