@@ -93,6 +93,12 @@ exports.onCreateNode = ({ node, getNode, actions: { createNodeField } }) => {
 
     createNodeField({
       node,
+      name: `lang`,
+      value: node.frontmatter.lang || 'fr',
+    })
+
+    createNodeField({
+      node,
       name: `slug`,
       value: slug,
     })

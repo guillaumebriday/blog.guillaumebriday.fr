@@ -47,6 +47,7 @@ export const PostIndexQuery = graphql`
           excerpt(pruneLength: 250)
           fields {
             slug
+            lang
             datePublished: date(formatString: "YYYY-MM-DD")
             date: date(formatString: "DD MMMM YYYY", locale: "fr")
           }
@@ -54,7 +55,6 @@ export const PostIndexQuery = graphql`
             layout
             title
             category
-            lang
           }
         }
       }

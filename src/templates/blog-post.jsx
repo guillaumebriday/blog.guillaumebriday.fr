@@ -12,7 +12,7 @@ export default ({
   <>
     <Helmet
       title={`${post.frontmatter.title} | ${site.siteMetadata.title}`}
-      htmlAttributes={{ lang: post.frontmatter.lang || 'fr' }}
+      htmlAttributes={{ lang: post.fields.lang }}
     />
 
     <article itemScope="" itemType="http://schema.org/BlogPosting">
@@ -51,13 +51,13 @@ export const pageQuery = graphql`
       timeToRead
       fields {
         slug
+        lang
         datePublished: date(formatString: "YYYY-MM-DD")
         date: date(formatString: "DD MMMM YYYY", locale: "fr")
       }
       frontmatter {
         title
         category
-        lang
       }
     }
 

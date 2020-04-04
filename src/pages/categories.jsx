@@ -54,7 +54,7 @@ export default ({
                   <Link
                     to={post.fields.slug}
                     className="text-black"
-                    hrefLang={post.frontmatter.lang}
+                    hrefLang={post.fields.lang}
                   >
                     <span itemProp="name">{post.frontmatter.title}</span>
                   </Link>
@@ -98,12 +98,12 @@ export const pageQuery = graphql`
             id
             fields {
               slug
+              lang
               datePublished: date(formatString: "YYYY-MM-DD")
               date: date(formatString: "DD MMM YYYY", locale: "fr")
             }
             frontmatter {
               title
-              lang
             }
           }
         }
