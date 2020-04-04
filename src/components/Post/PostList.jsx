@@ -21,7 +21,11 @@ export default ({ posts }) => (
           </Link>
 
           <h2 className="font-semibold mb-0 mt-2 leading-tight">
-            <Link to={post.fields.slug} className="text-black">
+            <Link
+              to={post.fields.slug}
+              className="text-black"
+              hrefLang={post.frontmatter.lang}
+            >
               <span itemProp="name">{post.frontmatter.title}</span>
             </Link>
           </h2>

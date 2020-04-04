@@ -10,7 +10,10 @@ export default ({
   pageContext,
 }) => (
   <>
-    <Helmet title={`${post.frontmatter.title} | ${site.siteMetadata.title}`} />
+    <Helmet
+      title={`${post.frontmatter.title} | ${site.siteMetadata.title}`}
+      htmlAttributes={{ lang: post.frontmatter.lang || 'fr' }}
+    />
 
     <article itemScope="" itemType="http://schema.org/BlogPosting">
       <div className="container pt-16 px-3 max-w-3xl">
@@ -54,6 +57,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         category
+        lang
       }
     }
 

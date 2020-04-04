@@ -54,6 +54,7 @@ export const PostIndexQuery = graphql`
             layout
             title
             category
+            lang
           }
         }
       }
