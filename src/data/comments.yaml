@@ -778,3 +778,65 @@
     Il n'y a pas de notion de stockage pour un runner, son rôle est simplement d'exécuter des tâches.
 
     Guillaume
+
+- id: "69"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Patrick Mignon
+  date: 2020-04-12 08:29:00
+  content: |
+    Bonjour Guillaume,
+
+    Merci pour ce tuto ancien mais qui est je pense toujours d'actualité avec le RT2600ac et une Livebox4.
+
+    Avant d'acheter le routeur de Synology (j'utilise depuis longtemps un DS212+ et maintenant un DS918+ dont je suis très satisfait : Synology c'est top !), j'ai bien compris l'essentiel qui consiste à mettre le routeur en DMZ dans la box puis désactiver le WiFi de la box et son DHCP.
+
+    Mais qu'en est-il alors du Player TV qui est en WiFi 5GHz ?
+
+    Si j'ai désactivé le WiFi de la Livebox, plus de TV.
+
+    Si je garde le WiFi de la Livebox, qu'en sera-t-il de la coexistence des quatre WiFi Box et Routeur chacun en 2,4 et 5 GHz
+
+    Je ne peux pas relier le Player TV en Ethernet car la fibre arrive dans un endroit évidemment éloigné du salon et donc de la TV.
+
+    Merci de vos conseils.
+
+- id: "70"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Patrick
+  date: 2020-04-10 11:18:00
+  content: |
+    Bonjour Guillaume et merci pour ce tuto,
+
+    Aujourd'hui j'envisage l'achat d'un RT2600ac pour le mettre derrière une LiveBox4.
+
+    Je suis utilisateur de NAS Synology depuis 10 ans et un DS212+. J'ai maintenant un DS918+.
+
+    Mes questions sont les suivantes :
+
+    1/ si je suis votre tuto à la lettre et que je mets mon RT2600ac en DMZ et que je coupe le DHCP et le WiFi, comment alors connecter le player TV d'Orange ?
+
+    2/ si je ne coupe pas le WiFi — notamment le 5GHz utilisé par le player TV qui ne fonctionne QU'EN 5GHz :((  — est-ce que ça ne va pas poser de pb avec les WiFi du routeur ?
+
+    Je n'ai pas la possibilité physique de relier le player TV en Ethernet à la LiveBox4…
+
+    Merci d'avance et bon confinement… :/
+
+    Patrick
+
+- id: "71"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2020-04-14 18:30:00
+  content: |
+    Bonjour Patrick,
+
+    Je n'utilise pas le player TV d'orange, mais je crois qu'il ne fonctionne qui si vous passez par la Livebox effectivement.
+
+    Vous pouvez laisser le WiFi de la box activé éventuellement juste pour cet appareil quitte à cacher son SSID.
+    Je ne pense pas que ça soit le plus optimisé mais ça ne devrait pas poser de soucis avec le WiFi du routeur Synology.
+
+    Si quelqu'un à plus d'informations à ce sujet j'espère qu'il pourra répondre.
+
+    Merci à vous, bon confinement également !
+
+    Guillaume
