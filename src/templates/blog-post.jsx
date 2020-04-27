@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import PostHeader from '../components/Post/PostHeader'
 import PostPagination from '../components/Post/PostPagination'
 import CommentList from '../components/Comment/CommentList'

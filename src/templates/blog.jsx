@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import PostList from '../components/Post/PostList'
 import Pagination from '../components/Layout/Pagination'
 import { graphql } from 'gatsby'

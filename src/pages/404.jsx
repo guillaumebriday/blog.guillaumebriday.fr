@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 
 export default ({ data: { site } }) => (
