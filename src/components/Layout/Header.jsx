@@ -40,7 +40,7 @@ export default ({ isBlog }) => {
               Articles
             </Link>
 
-            <Link getProps={classNameBlog} to="/talks">
+            <Link getProps={className} to="/talks">
               Talks
             </Link>
 
