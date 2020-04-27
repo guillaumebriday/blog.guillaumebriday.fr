@@ -30,7 +30,7 @@ Par exemple, imaginons que j'ai un back-office sur le port 3000 et une API PHP s
 
 Nous ce que l'on veut ce serait plutôt `backoffice.guillaumebriday.fr` et `api.guillaumebriday.fr`. C'est beaucoup plus propre et plus simple à maintenir.
 
-On reste toujours sur le même serveur mais c'est le reverse-proxy que devra, en fonction du sous-domaine, rediriger vers soit l'application PHP ou soit celle en Ruby.
+On reste toujours sur le même serveur mais c'est le reverse-proxy qui devra, en fonction du sous-domaine, rediriger vers soit l'application PHP ou soit celle en Ruby.
 
 Le reverse-proxy permet également de faire du [load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing)) puisque qu'avec un domaine ou sous-domaine particulier, il pourra rediriger la requête vers autant d'instances de nos applications que nécessaire.
 
