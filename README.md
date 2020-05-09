@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f1ff9daf-4123-4b27-9aab-761073812859/deploy-status)](https://app.netlify.com/sites/guillaumebriday/deploys)
+![](https://github.com/guillaumebriday/guillaumebriday.fr/workflows/Lint/badge.svg)
 
 # guillaumebriday.fr
 
@@ -9,6 +10,11 @@ Source code of [guillaumebriday.fr](https://guillaumebriday.fr) built with [Gats
 ```bash
 $ yarn
 $ yarn develop
+```
+
+Format code:
+```bash
+$ yarn format
 ```
 
 ## Contributing
