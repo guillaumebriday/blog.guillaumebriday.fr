@@ -11,16 +11,20 @@ const encode = (data) => {
 const emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 
 export default class CommentForm extends Component {
-  state = {
-    isLoading: false,
-    isSuccess: false,
-    isError: false,
-    form: {
-      slug: this.props.slug,
-      name: '',
-      email: '',
-      content: '',
-    },
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      isLoading: false,
+      isSuccess: false,
+      isError: false,
+      form: {
+        slug: this.props.slug,
+        name: '',
+        email: '',
+        content: '',
+      },
+    }
   }
 
   isDisabled = () => {

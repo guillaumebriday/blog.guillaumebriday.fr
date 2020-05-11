@@ -11,8 +11,12 @@ class AutoComplete extends Component {
     refine: PropTypes.func.isRequired,
   }
 
-  state = {
-    value: this.props.currentRefinement,
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      value: this.props.currentRefinement,
+    }
   }
 
   onChange = (event, { newValue }) => {

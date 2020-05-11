@@ -3,9 +3,13 @@ import Carousel, { Modal, ModalGateway } from 'react-images'
 import Img from 'gatsby-image'
 
 export default class extends Component {
-  state = {
-    selectedIndex: 0,
-    lightboxIsOpen: false,
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      selectedIndex: 0,
+      lightboxIsOpen: false,
+    }
   }
 
   toggleLightbox = (selectedIndex) => {

@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 
 export default class ScrollIndicator extends Component {
-  state = { scrolled: 0 }
+  constructor(props) {
+    super(props)
+
+    this.state = { scrolled: 0 }
+  }
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll)
