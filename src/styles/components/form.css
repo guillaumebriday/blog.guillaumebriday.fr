@@ -16,10 +16,11 @@
   }
 
   &__container {
-    @apply relative;
+    @apply relative w-full;
 
     &--open .react-autosuggest__suggestions-container {
-      @apply block rounded-lg border bg-white absolute overflow-hidden shadow-md inset-x-0 w-full;
+      @apply block rounded-lg border bg-white absolute overflow-hidden shadow-md right-0 w-full;
+      min-width: 400px;
       top: 40px;
       z-index: 2;
     }

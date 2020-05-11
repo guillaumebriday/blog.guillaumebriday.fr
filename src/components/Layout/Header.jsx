@@ -52,7 +52,7 @@ export default ({ isBlog }) => {
               Mon profil
             </Link>
 
-            <div className="flex items-baseline inline border border-indigo-500 rounded-full mt-2 lg:mt-0 py-1 px-2 pr-4 leading-tight w-full">
+            <div className="flex items-center inline border border-indigo-500 rounded-full mt-2 lg:mt-0 py-1 px-2 pr-4 leading-tight w-full">
               <InstantSearch indexName="blog" searchClient={searchClient}>
                 <Index indexName="blog">
                   <Configure hitsPerPage={5} />
