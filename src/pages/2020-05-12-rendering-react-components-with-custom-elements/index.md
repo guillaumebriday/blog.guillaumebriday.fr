@@ -10,7 +10,7 @@ A common approach to render a component in React is to call the `ReactDOM.render
 For instance, here we want to lazy load the comments of a post:
 
 ```html
-<div id="post-comments" data-post="<%= post.id %>" data-nested="true" />
+<div id="post-comments" data-post="{{ $post->id }}" data-nested="true" />
 ```
 
 ```jsx
@@ -47,8 +47,8 @@ I personally find the [Spread syntax](https://developer.mozilla.org/en-US/docs/W
 As I'm used to [Vue](https://vuejs.org/) syntax, I think it's too verbose and at the same time it's not very explicit that the `<div id="post-comments" />` tag will be replaced with a React Component at runtime. Moreover if I want to mount this component multiple times in the same page, I will need to change my code with a loop and a `querySelectAll`:
 
 ```html
-<div class="post-comments" data-post="<%= post.id %>" data-nested="true" />
-<div class="post-comments" data-post="<%= related_post.id %>" data-nested="false" />
+<div class="post-comments" data-post="{{ $post->id }}" data-nested="true" />
+<div class="post-comments" data-post="{{ $relatedPost->id }}" data-nested="false" />
 ```
 
 ```jsx
@@ -71,7 +71,7 @@ We can loop over the items in the NodeList with a `forEach` loop and render each
 As I said, I would like to see something like this in my views because it's **explicit** and I know what I have to deal with on the first look:
 
 ```html
-<post-comments post="<%= post.id %>" nested="true" />
+<post-comments post="{{ $post->id }}" nested="true" />
 ```
 
 This is a [Custom Element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements). If you are not familiar with them, you should take a look because they are absolutely awesome 🤯! They are part of the [official HTML specification](https://html.spec.whatwg.org/multipage/custom-elements.html) which means they are native to browsers and are surprisingly [widely supported](https://caniuse.com/#feat=custom-elementsv1). Basically, if you're using React in your app, Custom Elements will work too.
@@ -143,13 +143,13 @@ connectedCallback () {
 With this little tweak, we can use props in a seamlessly way!
 
 ```html
-<post-comments post="<%= post.id %>" nested="true" />
+<post-comments post="{{ $post->id }}" nested="true" />
 ```
 
 Instead of
 
 ```html
-<post-comments data-post="<%= post.id %>" data-nested="true" />
+<post-comments data-post="{{ $post->id }}" data-nested="true" />
 ```
 
 ## In the end...
