@@ -3,7 +3,7 @@
   "description": "My personnal website",
   "author": "Guillaume Briday",
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby build && gatsby serve",
     "serve:production": "NODE_ENV=production gatsby build && gatsby serve",
@@ -17,7 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "5.13.0",
     "@fortawesome/react-fontawesome": "0.1.9",
     "algoliasearch": "4.2.0",
-    "gatsby": "2.21.21",
+    "gatsby": "2.21.24",
     "gatsby-image": "2.4.3",
     "gatsby-plugin-algolia": "0.11.0",
     "gatsby-plugin-feed": "2.5.1",
