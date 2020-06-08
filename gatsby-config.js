@@ -186,6 +186,40 @@ module.exports = {
             output: '/feed.xml',
             title: 'Guillaume Briday',
           },
+          {
+            serialize: ({ query: { site, allTalksYaml } }) => {
+              return allTalksYaml.edges.map((edge) => {
+                return Object.assign({}, edge.node, {
+                  description: edge.node.description,
+                  date: edge.node.date,
+                  url: [site.siteMetadata.siteUrl, 'talks'].join(
+                    '/'
+                  ),
+                  guid: [site.siteMetadata.siteUrl, 'talks'].join(
+                    '/'
+                  )
+                })
+              })
+            },
+            query: `
+            {
+              allTalksYaml(
+                limit: 1000,
+                sort: { order: DESC, fields: [date] }
+              ) {
+                edges {
+                  node {
+                    title
+                    description
+                    date: date(formatString: "DD MMMM YYYY", locale: "fr")
+                  }
+                }
+              }
+            }
+          `,
+            output: '/talks.xml',
+            title: "Guillaume Briday's talks",
+          },
         ],
       },
     },
