@@ -100,7 +100,7 @@ exports.onCreateNode = ({ node, getNode, actions: { createNodeField } }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: `/${slug}`,
     })
 
     if (date) {
