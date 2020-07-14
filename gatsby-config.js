@@ -192,12 +192,8 @@ module.exports = {
                 return Object.assign({}, edge.node, {
                   description: edge.node.description,
                   date: edge.node.date,
-                  url: [site.siteMetadata.siteUrl, 'talks'].join(
-                    '/'
-                  ),
-                  guid: [site.siteMetadata.siteUrl, 'talks'].join(
-                    '/'
-                  )
+                  url: [site.siteMetadata.siteUrl, 'talks'].join('/'),
+                  guid: [site.siteMetadata.siteUrl, 'talks'].join('/'),
                 })
               })
             },
