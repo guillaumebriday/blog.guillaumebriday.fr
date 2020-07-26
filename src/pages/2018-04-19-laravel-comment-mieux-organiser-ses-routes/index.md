@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel : Comment mieux organiser ses routes"
-category: DevOps
+category: Dev
 ---
 
 Par défaut, sur Laravel il y a quatre fichiers de routes pour gérer les points d'entrées de notre application. On peut alors gérer les routes dédiées aux API, aux Websockets, à la console et bien-sûr aux navigateurs Web. Si l'application est de taille petite voire de taille moyenne, on peut encore s'y retrouver facilement.

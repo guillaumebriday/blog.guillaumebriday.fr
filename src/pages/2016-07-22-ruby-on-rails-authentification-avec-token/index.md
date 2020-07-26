@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby On Rails : Authentification avec token"
-category: DevOps
+category: Dev
 ---
 ![Rails authentification avec token](rails-token-authentication.jpg)
 

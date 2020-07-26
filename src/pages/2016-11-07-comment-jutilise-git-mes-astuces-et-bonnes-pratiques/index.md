@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Comment j'utilise Git ? Mes astuces et bonnes pratiques !"
-category: DevOps
+category: Dev
 ---
 Depuis quelques temps, j'ai en tête de faire un article pour expliquer comment je fonctionne avec git, quelles sont les commandes que j'utilise et pourquoi.
 

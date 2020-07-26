@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel & Vue.js - Faire une Todo List, partie 1 : Présentation et objectifs"
-category: Laravel-Vue.js-todolist
+category: Dev
 ---
 Je vais commencer une série d'articles pour présenter un projet que je souhaite mettre en place depuis quelques temps : une Todo List !! Alors, dit comme ça, je reconnais que ça n'a pas de quoi casser trois pattes à un canard, mais laissez-moi vous présenter le concept, vous allez voir qu'il y a vraiment pleins de choses cool à faire techniquement et ergonomiquement.
 

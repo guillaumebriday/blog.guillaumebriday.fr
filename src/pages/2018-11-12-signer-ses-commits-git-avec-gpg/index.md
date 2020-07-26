@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Signer ses commits Git avec GPG"
-category: DevOps
+category: Dev
 ---
 ![Liste de commits signés](commits-signed.png)
 

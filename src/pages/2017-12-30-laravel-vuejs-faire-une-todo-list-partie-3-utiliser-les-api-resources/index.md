@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel & Vue.js - Faire une Todo List, partie 3 : Utiliser les API Resources"
-category: Laravel-Vue.js-todolist
+category: Dev
 ---
 
 Depuis la version 5.5 de Laravel, nous pouvons utiliser les [API Resources](https://laravel.com/docs/5.5/eloquent-resources).

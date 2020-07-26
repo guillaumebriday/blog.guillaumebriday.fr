@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel & Vue.js - Faire une Todo List, partie 6 : Un peu de refactoring"
-category: Laravel-Vue.js-todolist
+category: Dev
 ---
 
 J'ai pris le temps de refactoriser certaines parties du code depuis le dernier article. Pas de changement majeur, mais la mise à jour de dépendances m'a forcé à faire plusieurs modifications que je voulais présenter avec de continuer la série.

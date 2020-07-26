@@ -2,7 +2,7 @@
 layout: post
 title: Les dates relatives en PHP
 date: 2018-07-30 20:00
-category: DevOps
+category: Dev
 ---
 La gestion des dates n'a jamais été une tâche facile et le langage ne change pas grand-chose au problème.
 Il y a des librairies comme [Carbon](https://carbon.nesbot.com/docs/) qui simplifie grandement leur manipulation, mais il faut souvent faire une gymnastique cérébrale pour savoir quel résultat est attendu.

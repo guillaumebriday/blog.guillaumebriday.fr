@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bien configurer son environnement de développement"
-category: DevOps
+category: Dev
 ---
 Aujourd'hui, je vais aborder un sujet qui me tient à coeur. La configuration de son environnement de développement et de son ordinateur est un point fondamental dans son organisation et son workflow au quotidien.
 

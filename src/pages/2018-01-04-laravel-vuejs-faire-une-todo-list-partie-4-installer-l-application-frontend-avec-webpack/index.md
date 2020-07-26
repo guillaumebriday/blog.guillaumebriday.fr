@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel & Vue.js - Faire une Todo List, partie 4 : Installer l'application Frontend avec Webpack"
-category: Laravel-Vue.js-todolist
+category: Dev
 ---
 C'est l'une des parties les plus importantes de la partie frontend : la mise en place de l'environnement avec Webpack.
 

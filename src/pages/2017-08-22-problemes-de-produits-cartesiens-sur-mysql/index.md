@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Problèmes de produits cartésiens sur MySQL"
-category: DevOps
+category: Dev
 ---
 Récemment, en travaillant sur un projet de développement Web, j'ai eu besoin d'utiliser la fonction d'agrégation ```SUM``` avec plusieurs ```JOIN```. J'ai rencontré un comportement étrange, à savoir que MySQL **doublait ou triplait les résultats attendus**. Ayant mis du temps à trouver une solution, je tenais à partager celle que j'avais trouvé avec quelques détails.
 

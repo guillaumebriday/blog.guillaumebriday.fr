@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel & Vue.js - Faire une Todo List, partie 2 : Authentification avec les JWT"
-category: Laravel-Vue.js-todolist
+category: Dev
 ---
 
 Avant de commencer à développer les fonctionnalités de notre application, il va falloir mettre en place l'authentification. Pour ce projet, j'utilise les JWT.

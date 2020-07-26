@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel & Vue.js - Faire une Todo List, partie 5 : Authentification avec Vuex et Vue-router"
-category: Laravel-Vue.js-todolist
+category: Dev
 ---
 ![Page de login de Todolist front](frontend-login.jpg)
 

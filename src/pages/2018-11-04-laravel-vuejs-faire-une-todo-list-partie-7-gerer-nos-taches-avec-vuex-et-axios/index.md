@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel & Vue.js - Faire une Todo List, partie 7 : Gérer nos tâches avec Vuex et Axios"
-category: Laravel-Vue.js-todolist
+category: Dev
 ---
 ![Liste des tâches de l'application](tasklist.png)
 
