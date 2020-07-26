@@ -2,7 +2,8 @@
   @apply leading-medium;
 
   h1,
-  h2 {
+  h2,
+  h3 {
     @apply mt-10;
   }
 
