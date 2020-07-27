@@ -7,9 +7,9 @@ lang: en
 
 If you ever have implement [Vue.JS](https://vuejs.org/) or any others UI libraries like [React](https://reactjs.org/) in your backend application, you probably know that there are multiples ways to achieve that.
 
-Vue.JS is a **progressive framework** to build UI. It means that you don't have to use it everywhere to make it works. You can add component after component without rewriting your app from the ground up.
+Vue.JS is a **progressive framework** to build UIs. It means that you don't have to use it everywhere to make it work. You can add component after component without rewriting your app from the ground up.
 
-In these examples, I will use the [ERB](https://en.wikipedia.org/wiki/ERuby) templating system, but it's exactly the same with [Twig](https://twig.symfony.com/), [Blade](https://laravel.com/docs/7.x/blade) or any other templating system.
+In these examples, I will use the [ERB](https://en.wikipedia.org/wiki/ERuby) templating language, but it's exactly the same with [Twig](https://twig.symfony.com/), [Blade](https://laravel.com/docs/7.x/blade) or any other templating system.
 
 ## How to use Vue.JS in backend
 
@@ -55,7 +55,7 @@ export default {
 
 **Tip**: You can use [`v-bind`](https://vuejs.org/v2/guide/components-props.html#Passing-Static-or-Dynamic-Props) to convert strings to `Boolean`, `Number`, `Object` or `Array`.
 
-A better approach to achieve that would be to serialize the `post` using the `v-bind` shortcut.
+A better approach to achieve that would be to serialize the `post` using the `v-bind` shorthand.
 
 ```ruby
 <BlogPost :post="<%= @post.to_json %>"></BlogPost>
@@ -128,7 +128,7 @@ Moreover, your browser **needs to download all your JavaScript** and load Vue.JS
 
 [Scoped slots](https://vuejs.org/v2/guide/components-slots.html#Scoped-Slots) are not easy to understand. They are a particular form of [slots](https://vuejs.org/v2/guide/components-slots.html).
 
-A slot defined a location to inject content in a component.
+A slot defines a location to inject content in a component.
 
 ```html
 <BlogPost>
@@ -150,11 +150,11 @@ It would be even greater to use Vue to change your injected content and not only
 
 ## Using Scoped slots
 
-Sometime you would like to **keep your markup from your backend application** for multiple reasons.
+Sometime you would like to **re-use the markup from your backend application** for multiple reasons.
 
 You have your `helpers`, your custom `Form` Object, your `validators` or whatever.
 
-For instance, we want to add a `DatePicker` component in our form, **without rewriting** the all form in Vue.JS:
+For instance, we want to add a `DatePicker` component in our form, **without rewriting** the whole form in Vue.JS:
 
 ```jsx
 <%= form_with(url: "/search", method: "get") do %>
@@ -207,7 +207,7 @@ You can clean this up by using [destructuration](https://developer.mozilla.org/e
 </DatePicker>
 ```
 
-The value of your `text_field_tag` will be dynamically be updated by Vue.JS when `selectedDate` is modified.
+The value of your `text_field_tag` will be dynamically updated by Vue.JS when `selectedDate` is modified.
 
 You can also use `Function` which blew my mind the first time I used it:
 
@@ -221,11 +221,11 @@ Vue.JS reactivity and custom events in ERB template 🤯.
 
 ## Conclusion
 
-I think `scoped slots` are a nice way to add Vue progressively in your application.
+I think `scoped slots` are a nice way to progressively add Vue to your application.
 
 You can do so many things with `scoped slots` like [renderless components](https://adamwathan.me/renderless-components-in-vuejs/).
 
-[Here's a video](https://www.youtube.com/watch?v=GWdOucfAzTo) explaining how it works in detail.
+[Here's a video](https://www.youtube.com/watch?v=GWdOucfAzTo) explaining how it works in details.
 
 I hope this helps.
 
