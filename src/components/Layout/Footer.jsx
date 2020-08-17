@@ -136,6 +136,16 @@ export default () => {
             <li>
               <a
                 className="text-gray-500 hover:text-gray-100"
+                href="https://www.patreon.com/guillaumebriday"
+                title="Patreon"
+              >
+                <FontAwesomeIcon icon={['fab', 'patreon']} />
+              </a>
+            </li>
+
+            <li>
+              <a
+                className="text-gray-500 hover:text-gray-100"
                 href="https://www.amazon.fr/?tag=guillaumebrid-21"
                 title="Lien affilié Amazon"
               >

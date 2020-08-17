@@ -20,6 +20,7 @@ import {
   faLinkedin,
   faAmazon,
   faPaypal,
+  faPatreon,
 } from '@fortawesome/free-brands-svg-icons'
 
 import './src/styles/tailwind.css'
@@ -41,6 +42,7 @@ library.add(
   faGithub,
   faTwitter,
   faInstagram,
+  faPatreon,
   faLinkedin,
   faAmazon,
   faPaypal
