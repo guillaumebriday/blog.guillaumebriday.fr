@@ -2,13 +2,9 @@ const { fontFamily, colors } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: false,
+  experimental: 'all',
   future: {
     removeDeprecatedGapUtilities: true,
-  },
-  experimental: {
-    uniformColorPalette: true,
-    extendedFontSizeScale: true,
-    extendedSpacingScale: true,
   },
   theme: {
     container: {
