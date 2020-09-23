@@ -7,6 +7,44 @@
     @apply mt-10;
   }
 
+  ul {
+    @apply my-5;
+
+    & > li {
+      position: relative;
+      padding-left: 1.75em;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+
+      &:before {
+        content: "";
+        position: absolute;
+        background-color: #cbd5e0;
+        border-radius: 50%;
+        width: 0.375em;
+        height: 0.375em;
+        top: calc(0.875em - 0.1875em);
+        left: 0.25em;
+      }
+    }
+  }
+
+  blockquote {
+    font-weight: 500;
+    font-style: italic;
+    color: #1a202c;
+    border-left-width: 0.25rem;
+    border-left-color: #e2e8f0;
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    padding-left: 1em;
+  }
+
+  pre {
+    border-radius: 0.375rem;
+    font-size: 0.875em;
+  }
+
   a {
     @apply relative text-black font-semibold;
 
