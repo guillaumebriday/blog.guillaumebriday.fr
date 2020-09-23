@@ -10,7 +10,7 @@ Sur les Synology, pour activer le SSH vous pouvez vous rendre sur DSM, puis sél
 
 Si ce n'est pas un NAS Synology, mais un serveur standard, vous allez devoir modifier la configuration par défaut pour accepter les clés publiques. Ainsi, dans le fichier ```/etc/ssh/sshd_config```, trouvez les lignes :
 
-```conf
+```ini
 #RSAAuthentication yes
 #PubkeyAuthentication yes
 #AuthorizedKeysFile .ssh/authorized_keys
@@ -18,7 +18,7 @@ Si ce n'est pas un NAS Synology, mais un serveur standard, vous allez devoir mod
 
 et remplacez les par :
 
-```conf
+```ini
 #RSAAuthentication yes
 PubkeyAuthentication yes
 AuthorizedKeysFile .ssh/authorized_keys
@@ -96,7 +96,7 @@ Il devrait vous demander, à la première utilisation de la clé, votre passphra
 
 Avec les clés SSH on gagne grandement en simplicité, mais on peut faire mieux. On va créer un fichier de configuration SSH en local, nommé ```config``` dans le dossier ```~/.ssh``` :
 
-```conf
+```ini
 # ~/.ssh/config
 Host *
   AddKeysToAgent yes
