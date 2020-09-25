@@ -47,7 +47,7 @@ When you use this method it's very hard to know what parameters are given to the
 
 And moreover, if you need to change only one param, you have to redefined all others.
 
-With hash, it's easier:
+With a hash, it's easier:
 
 ```ruby
 def picture_url(picture, format: :small, full_url: false, caption: true)
@@ -57,7 +57,7 @@ def picture_url(picture, format: :small, full_url: false, caption: true)
 <%= picture_url(@user.avatar, format: :thumb, caption: false) %>
 ```
 
-To resume:
+In summary:
 ```ruby
 # Don't
 def picture_url(picture, format = :small, full_url = false, caption = true)
