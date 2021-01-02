@@ -113,25 +113,6 @@ pre {
   }
 }
 
-.gallery-wrapper {
-  display: grid;
-  grid-gap: 1rem;
-  grid-auto-flow: dense;
-
-  & img {
-    size: 100%;
-    object-fit: cover;
-  }
-
-  @media screen and (min-width: theme('screens.md')) {
-    & article:first-child,
-    & article:nth-child(4n) {
-      grid-column: span 2;
-      grid-row: span 2;
-    }
-  }
-}
-
 .gatsby-image-wrapper {
   height: 100%;
 }

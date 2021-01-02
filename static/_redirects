@@ -59,55 +59,6 @@ https://guillaumebriday.netlify.com/* https://guillaumebriday.fr/:splat 301!
 /astuce-changement-rapidement-de-fenetres-dune-meme-application /changer-de-fenetres-d-une-meme-application-sur-macOS 301
 
 # ----------------------------------------------------------------------
-# Photos redirects                                                       |
-# ----------------------------------------------------------------------
-
-/photos/DSC3180 /photos/ 301
-/photos/DSC4550 /photos/ 301
-/photos/DSC7515 /photos/ 301
-/photos/DSC5432 /photos/ 301
-/photos/DSC5759 /photos/ 301
-/photos/DSC6329 /photos/ 301
-/photos/DSC6032 /photos/ 301
-/photos/DSC2364 /photos/ 301
-/photos/DSC4418 /photos/ 301
-/photos/DSC4136 /photos/ 301
-/photos/DSC2758 /photos/ 301
-/photos/DSC6577 /photos/ 301
-/photos/DSC2804 /photos/ 301
-/photos/DSC4623 /photos/ 301
-/photos/DSC4546 /photos/ 301
-/photos/DSC5390 /photos/ 301
-/photos/DSC1030 /photos/ 301
-/photos/DSC5319 /photos/ 301
-/photos/DSC6941 /photos/ 301
-/photos/DSC4551 /photos/ 301
-/photos/DSC1330 /photos/ 301
-/photos/DSC7665 /photos/ 301
-/photos/DSC6330 /photos/ 301
-/photos/DSC1131 /photos/ 301
-/photos/DSC7453 /photos/ 301
-/photos/DSC3465 /photos/ 301
-/photos/DSC0820 /photos/ 301
-/photos/DSC5582 /photos/ 301
-/photos/DSC3953 /photos/ 301
-/photos/DSC2357 /photos/ 301
-/photos/DSC5650 /photos/ 301
-/photos/DSC7400 /photos/ 301
-/photos/DSC4154 /photos/ 301
-/photos/DSC1130 /photos/ 301
-/photos/DSC7506 /photos/ 301
-/photos/DSC2365 /photos/ 301
-/photos/DSC4931 /photos/ 301
-/photos/DSC1333 /photos/ 301
-/photos/DSC1031 /photos/ 301
-/photos/DSC2682 /photos/ 301
-/photos/DSC2330 /photos/ 301
-/photos/DSC3276 /photos/ 301
-/photos/DSC7517 /photos/ 301
-/photos/DSC3273 /photos/ 301
-
-# ----------------------------------------------------------------------
 # | Custom error messages/pages                                        |
 # ----------------------------------------------------------------------
 

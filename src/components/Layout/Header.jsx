@@ -44,10 +44,6 @@ export default ({ isBlog }) => {
               Talks
             </Link>
 
-            <Link getProps={className} to="/photos">
-              Photos
-            </Link>
-
             <Link getProps={className} to="/mon-profil">
               Mon profil
             </Link>

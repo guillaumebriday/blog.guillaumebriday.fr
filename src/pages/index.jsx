@@ -43,9 +43,9 @@ export default ({ data: { file } }) => (
       </p>
 
       <p>
-        Le reste du temps, je suis passionné de{' '}
-        <Link to="/photos">photographie</Link> et de voyages comme tu peux le
-        voir sur <a href="https://instagram.com/guillaumebriday">Instagram</a>.
+        Le reste du temps, je suis passionné de photographie et de voyages comme
+        tu peux le voir sur mon{' '}
+        <a href="https://instagram.com/guillaumebriday">Instagram</a>.
       </p>
 
       <p>
