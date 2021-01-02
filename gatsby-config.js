@@ -225,14 +225,6 @@ module.exports = {
         component: require.resolve(`./src/layouts/index.jsx`),
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-54003772-2`,
-        anonymize: true,
-        respectDNT: true,
-      },
-    },
     'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-purgecss',
