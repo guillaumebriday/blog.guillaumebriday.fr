@@ -84,7 +84,7 @@ exports.onCreateNode = ({ node, getNode, actions: { createNodeField } }) => {
     let filename = createFilePath({ node, getNode, basePath: `pages` })
 
     let matches = filename.match(/^\/([\d]{4}-[\d]{2}-[\d]{2})-{1}(.+)\/$/)
-    let slug = filename
+    let slug = filename.replace(/\//g, '')
     let date = null
 
     if (matches) {
