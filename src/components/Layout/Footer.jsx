@@ -46,6 +46,15 @@ export default () => {
             <span className="w-1/3 mb-2">
               <Link
                 className="footer-link relative text-gray-500 hover:text-gray-100 hover:no-underline w-1/3"
+                to="/uses"
+              >
+                Uses
+              </Link>
+            </span>
+
+            <span className="w-1/3 mb-2">
+              <Link
+                className="footer-link relative text-gray-500 hover:text-gray-100 hover:no-underline w-1/3"
                 to="/articles"
               >
                 Articles
