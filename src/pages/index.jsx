@@ -54,7 +54,7 @@ export default ({ data: { file } }) => (
       </p>
 
       <div className="flex justify-center my-8">
-        <div className="w-full md:w-8/12 flex justify-between flex-wrap">
+        <div className="w-full md:w-1/2 flex justify-between flex-wrap">
           <p className="w-1/2 md:w-auto text-center sm:mt-0 mt-4">
             <a href="https://github.com/guillaumebriday">
               <FontAwesomeIcon
@@ -92,16 +92,6 @@ export default ({ data: { file } }) => (
                 className="text-indigo-500 mr-1"
               />{' '}
               Linkedin
-            </a>
-          </p>
-
-          <p className="w-1/2 md:w-auto text-center sm:mt-0 mt-4">
-            <a href="https://www.patreon.com/guillaumebriday">
-              <FontAwesomeIcon
-                icon={['fab', 'patreon']}
-                className="text-indigo-500 mr-1"
-              />{' '}
-              Patreon
             </a>
           </p>
         </div>
