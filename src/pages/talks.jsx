@@ -1,18 +1,25 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
-export default ({ data: { site, allTalksYaml } }) => (
+export default ({ data: { site, file, allTalksYaml } }) => (
   <>
     <Helmet title={`Talks | ${site.siteMetadata.title}`} />
 
     <div className="container py-16 px-3 mx-auto max-w-3xl">
       <h1>Talks</h1>
 
-      <p className="font-light text-gray-700 text-sm mb-12">
+      <p className="font-light text-gray-700 text-sm">
         Il arrive que je fasse des talks de temps à autre. Tu trouveras ici la
         liste complète avec les vidéos et les slides.
       </p>
+
+      <Img
+        fluid={file.childImageSharp.fluid}
+        alt="Photo pendant un talk"
+        className="mb-12"
+      />
 
       <ul className="list-reset mb-8">
         {allTalksYaml.edges.map(({ node: talk }, i) => (
@@ -61,6 +68,16 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+
+    file(relativePath: { eq: "talk.jpg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 800, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
       }
     }
 
