@@ -18,6 +18,7 @@ import {
   faTwitter,
   faInstagram,
   faLinkedin,
+  faTwitch,
   faAmazon,
   faPaypal,
 } from '@fortawesome/free-brands-svg-icons'
@@ -42,6 +43,7 @@ library.add(
   faTwitter,
   faInstagram,
   faLinkedin,
+  faTwitch,
   faAmazon,
   faPaypal
 )

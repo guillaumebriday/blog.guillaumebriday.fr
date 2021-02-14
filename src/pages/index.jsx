@@ -34,12 +34,10 @@ export default ({ data: { file } }) => (
       </p>
 
       <p>
-        Je suis membre de l'association{' '}
-        <a href="http://www.lyonenglishtoastmasters.org/">
-          Lyon English Toastmasters
-        </a>{' '}
-        et désormais organisateur du{' '}
-        <a href="https://www.meetup.com/LyonRB/">Meetup Lyon.rb</a>.
+        Je suis co-organisateur du{' '}
+        <a href="https://www.meetup.com/LyonRB/">Meetup Lyon.rb</a> et je fais
+        des <a href="https://www.twitch.tv/guillaumebriday">lives sur Twitch</a>
+        .
       </p>
 
       <p>
