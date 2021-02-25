@@ -34,6 +34,12 @@ export default ({ data: { file } }) => (
       </p>
 
       <p>
+        J'ai également créé{' '}
+        <a href="https://timecop-app.com/">Timecop</a> pour simplifier la saisie
+        de ses temps et la collaboration en équipe.
+      </p>
+
+      <p>
         Je suis co-organisateur du{' '}
         <a href="https://www.meetup.com/LyonRB/">Meetup Lyon.rb</a> et je fais
         des <a href="https://www.twitch.tv/guillaumebriday">lives sur Twitch</a>
