@@ -21,6 +21,7 @@ import {
   faTwitch,
   faAmazon,
   faPaypal,
+  faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 
 import './src/styles/tailwind.css'
@@ -44,6 +45,7 @@ library.add(
   faInstagram,
   faLinkedin,
   faTwitch,
+  faYoutube,
   faAmazon,
   faPaypal
 )

@@ -127,6 +127,16 @@ export default () => {
             <li>
               <a
                 className="text-gray-500 hover:text-gray-100"
+                href="https://www.youtube.com/channel/UCRMx07VuenDu9zexw2ojERQ"
+                title="YouTube"
+              >
+                <FontAwesomeIcon icon={['fab', 'youtube']} />
+              </a>
+            </li>
+
+            <li>
+              <a
+                className="text-gray-500 hover:text-gray-100"
                 href="https://www.linkedin.com/in/guillaumebriday"
                 title="Linkedin"
               >

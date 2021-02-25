@@ -52,7 +52,7 @@ export default ({ data: { file } }) => (
       </p>
 
       <div className="flex justify-center my-8">
-        <div className="w-full md:w-1/2 flex justify-between flex-wrap">
+        <div className="w-full md:w-10/12 flex justify-between flex-wrap">
           <p className="w-1/2 md:w-auto text-center sm:mt-0 mt-4">
             <a href="https://github.com/guillaumebriday">
               <FontAwesomeIcon
@@ -80,6 +80,26 @@ export default ({ data: { file } }) => (
                 className="text-indigo-500 mr-1"
               />{' '}
               Instagram
+            </a>
+          </p>
+
+          <p className="w-1/2 md:w-auto text-center sm:mt-0 mt-4">
+            <a href="https://www.twitch.tv/guillaumebriday">
+              <FontAwesomeIcon
+                icon={['fab', 'twitch']}
+                className="text-indigo-500 mr-1"
+              />{' '}
+              Twitch
+            </a>
+          </p>
+
+          <p className="w-1/2 md:w-auto text-center sm:mt-0 mt-4">
+            <a href="https://www.youtube.com/channel/UCRMx07VuenDu9zexw2ojERQ">
+              <FontAwesomeIcon
+                icon={['fab', 'youtube']}
+                className="text-indigo-500 mr-1"
+              />{' '}
+              YouTube
             </a>
           </p>
 
