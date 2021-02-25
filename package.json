@@ -7,8 +7,8 @@
     "develop": "gatsby develop",
     "serve": "gatsby build && gatsby serve",
     "serve:production": "NODE_ENV=production gatsby build && gatsby serve",
-    "format": "prettier --write '{**/*,*}.{js,jsx}'",
-    "lint": "prettier --list-different '{**/*,*}.{js,jsx}'"
+    "format": "prettier --write 'src/{**/*,*}.{js,jsx}'",
+    "lint": "prettier --list-different 'src/{**/*,*}.{js,jsx}'"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.32",
