@@ -29,6 +29,10 @@ const Layout = ({ children, location, pageContext }) => {
             name: 'description',
             content: site.siteMetadata.description,
           },
+          {
+            name: 'author',
+            content: 'Guillaume Briday'
+          },
         ]}
       />
 
