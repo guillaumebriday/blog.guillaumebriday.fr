@@ -2,6 +2,7 @@
 layout: post
 title: "13 tips to write better Rails code"
 category: Dev
+description: "Writing clean code is the key for maintainable and sustainable code. Here's some of my favorite tips I could give you after many years working on Rails and Ruby."
 lang: en
 ---
 

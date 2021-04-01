@@ -5,7 +5,13 @@ import Img from 'gatsby-image'
 
 const Talks = ({ data: { site, file, allTalksYaml } }) => (
   <>
-    <Helmet title={`Talks | ${site.siteMetadata.title}`} />
+    <Helmet>
+      <title>Talks | {site.siteMetadata.title}</title>
+      <meta
+        name="description"
+        content="Il arrive que je fasse des talks de temps à autre. Tu trouveras ici la liste complète avec les vidéos et les slides."
+      />
+    </Helmet>
 
     <div className="container py-16 px-3 mx-auto max-w-3xl">
       <h1>Talks</h1>

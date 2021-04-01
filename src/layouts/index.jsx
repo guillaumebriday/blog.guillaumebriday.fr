@@ -14,6 +14,8 @@ const Layout = ({ children, location, pageContext }) => {
         siteMetadata {
           title
           description
+          lang
+          author
         }
       }
     }
@@ -21,20 +23,12 @@ const Layout = ({ children, location, pageContext }) => {
 
   return (
     <>
-      <Helmet
-        title={site.siteMetadata.title}
-        htmlAttributes={{ lang: 'fr' }}
-        meta={[
-          {
-            name: 'description',
-            content: site.siteMetadata.description,
-          },
-          {
-            name: 'author',
-            content: 'Guillaume Briday'
-          },
-        ]}
-      />
+      <Helmet>
+        <title>{site.siteMetadata.title}</title>
+        <html lang={site.siteMetadata.lang}></html>
+        <meta name="description" content={site.siteMetadata.description} />
+        <meta name="author" content={site.siteMetadata.author} />
+      </Helmet>
 
       <div className="flex flex-col min-h-screen font-sans leading-normal">
         {pageContext.isBlog && <ScrollIndicator />}

@@ -2,6 +2,7 @@
 layout: post
 title: "Introducing Stimulus components"
 category: Dev
+description: "Stimulus components is a bunch of Stimulus controllers that stick to the Stimulus philosophy as much as possible. Because Stimulus controllers are vanilla JS Classes, you can extend them or use the directly in your application."
 lang: en
 ---
 

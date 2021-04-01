@@ -17,7 +17,14 @@ const Categories = ({
   },
 }) => (
   <>
-    <Helmet title={`Catégories | ${site.siteMetadata.title}`} />
+    <Helmet>
+      <title>Catégories | {site.siteMetadata.title}</title>
+      <meta
+        name="description"
+        content="La liste de tous les articles triés par catégorie."
+      />
+    </Helmet>
+
     <div className="container py-16 px-3 mx-auto max-w-3xl">
       <h1>Catégories</h1>
 

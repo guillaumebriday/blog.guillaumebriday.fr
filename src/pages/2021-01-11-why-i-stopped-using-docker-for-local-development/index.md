@@ -2,6 +2,7 @@
 layout: post
 title: "Why I stopped using Docker for local development"
 category: Dev
+description: "I've been using Docker for almost 5 years now. I wrote blog posts on it and I enjoyed using it for a long time, it solved many of my problems and simplified my life as a developer, but I'm done with it."
 lang: en
 ---
 

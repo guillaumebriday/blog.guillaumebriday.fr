@@ -34,9 +34,8 @@ const Home = ({ data: { file } }) => (
       </p>
 
       <p>
-        J'ai également créé{' '}
-        <a href="https://timecop-app.com/">Timecop</a> pour simplifier la saisie
-        de ses temps et la collaboration en équipe.
+        J'ai également créé <a href="https://timecop-app.com/">Timecop</a> pour
+        simplifier la saisie de ses temps et la collaboration en équipe.
       </p>
 
       <p>

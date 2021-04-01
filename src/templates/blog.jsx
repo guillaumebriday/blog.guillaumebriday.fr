@@ -12,7 +12,13 @@ const Blog = ({
   pageContext,
 }) => (
   <>
-    <Helmet title={`Articles | ${site.siteMetadata.title}`} />
+    <Helmet>
+      <title>Articles | {site.siteMetadata.title}</title>
+      <meta
+        name="description"
+        content="La liste de tous les articles que j'ai publié."
+      />
+    </Helmet>
 
     <div className="container px-3 py-16 mx-auto max-w-3xl">
       <h1>Articles</h1>

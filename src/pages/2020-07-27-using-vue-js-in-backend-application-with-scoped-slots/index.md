@@ -2,6 +2,7 @@
 layout: post
 title: "Using Vue.JS in backend application with Scoped Slots"
 category: Dev
+description: "If you ever have implement Vue.JS or any others UI libraries like React in your backend application, you probably know that there are multiples ways to achieve that."
 lang: en
 ---
 

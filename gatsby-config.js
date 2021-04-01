@@ -39,6 +39,8 @@ module.exports = {
     title: `Guillaume Briday`,
     description: `Ce blog est à propos des nouvelles technologies, de mes humeurs, de développement Web, de photos... En bref, de tout ce dont j'ai envie de parler.`,
     siteUrl: `https://guillaumebriday.fr`,
+    lang: 'fr',
+    author: 'Guillaume Briday'
   },
   plugins: [
     {

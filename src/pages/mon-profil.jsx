@@ -10,7 +10,13 @@ import Hobbies from '../components/Resume/Hobbies'
 
 const Profile = ({ data: { site, file } }) => (
   <>
-    <Helmet title={`Mon profil | ${site.siteMetadata.title}`} />
+    <Helmet>
+      <title>Mon profil | {site.siteMetadata.title}</title>
+      <meta
+        name="description"
+        content="Tu trouvera tout mon parcours sur mon profil."
+      />
+    </Helmet>
 
     <About file={file} />
     <Skill />

@@ -10,10 +10,15 @@ const BlogPost = ({
   pageContext,
 }) => (
   <>
-    <Helmet
-      title={`${post.frontmatter.title} | ${site.siteMetadata.title}`}
-      htmlAttributes={{ lang: post.fields.lang }}
-    />
+    <Helmet>
+      <title>
+        {post.frontmatter.title} | {site.siteMetadata.title}
+      </title>
+      <html lang={post.fields.lang}></html>
+      {post.frontmatter.description && (
+        <meta name="description" content={post.frontmatter.description} />
+      )}
+    </Helmet>
 
     <article itemScope="" itemType="http://schema.org/BlogPosting">
       <div className="container pt-16 px-3 max-w-3xl">
@@ -59,6 +64,7 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        description
         category
       }
     }
