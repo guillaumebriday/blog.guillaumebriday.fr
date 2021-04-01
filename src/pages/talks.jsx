@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-export default ({ data: { site, file, allTalksYaml } }) => (
+const Talks = ({ data: { site, file, allTalksYaml } }) => (
   <>
     <Helmet title={`Talks | ${site.siteMetadata.title}`} />
 
@@ -63,6 +63,7 @@ export default ({ data: { site, file, allTalksYaml } }) => (
   </>
 )
 
+export default Talks
 export const pageQuery = graphql`
   {
     site {

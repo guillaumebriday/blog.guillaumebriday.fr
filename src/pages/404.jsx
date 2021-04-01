@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 
-export default ({ data: { site } }) => (
+const NotFound = ({ data: { site } }) => (
   <>
     <Helmet
       title={`Oups ! La page est introuvable… | ${site.siteMetadata.title}`}
@@ -20,6 +20,7 @@ export default ({ data: { site } }) => (
   </>
 )
 
+export default NotFound
 export const pageQuery = graphql`
   {
     site {

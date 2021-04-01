@@ -1,7 +1,7 @@
 import React from 'react'
 import Img from 'gatsby-image'
 
-export default ({ file }) => (
+const About = ({ file }) => (
   <section className="container pt-16 pb-8 px-3 mx-auto max-w-3xl">
     <div className="flex justify-center">
       <div className="flex flex-col">
@@ -36,3 +36,5 @@ export default ({ file }) => (
     </div>
   </section>
 )
+
+export default About

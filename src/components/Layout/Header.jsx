@@ -10,7 +10,7 @@ const searchClient = algoliasearch(
   '7fc62cf15955fb0a464f0c2a7ec8bb1e'
 )
 
-export default ({ isBlog }) => {
+const Header = ({ isBlog }) => {
   const activeClassName = (isActive) => {
     let classes =
       'header-link flex-shrink-0 hover:no-underline hover:text-indigo-500 relative mr-8 my-2 lg:my-0 font-semibold'
@@ -64,3 +64,5 @@ export default ({ isBlog }) => {
     </header>
   )
 }
+
+export default Header

@@ -4,7 +4,7 @@ import PostList from '../components/Post/PostList'
 import Pagination from '../components/Layout/Pagination'
 import { graphql } from 'gatsby'
 
-export default ({
+const Blog = ({
   data: {
     allMarkdownRemark: { edges: posts },
     site,
@@ -28,6 +28,7 @@ export default ({
   </>
 )
 
+export default Blog
 export const PostIndexQuery = graphql`
   query($skip: Int!, $limit: Int!) {
     site {

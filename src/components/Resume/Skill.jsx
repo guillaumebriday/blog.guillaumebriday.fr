@@ -23,7 +23,7 @@ const skills = [
   'macOS / Linux',
 ]
 
-export default () => (
+const Skill = () => (
   <section className="py-8 bg-gray-100">
     <div className="container max-w-6xl px-3">
       <h2 className="uppercase text-center text-4xl mb-8">Compétences</h2>
@@ -64,3 +64,5 @@ export default () => (
     </div>
   </section>
 )
+
+export default Skill

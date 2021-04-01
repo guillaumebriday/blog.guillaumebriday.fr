@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export default ({ pageContext: { previous, next } }) => (
+const PostPagination = ({ pageContext: { previous, next } }) => (
   <div className="my-6 py-6 flex flex-wrap border-t border-indigo-500">
     <div className="w-full sm:pr-4 sm:w-1/2">
       {previous && (
@@ -86,3 +86,5 @@ export default ({ pageContext: { previous, next } }) => (
     </div>
   </div>
 )
+
+export default PostPagination

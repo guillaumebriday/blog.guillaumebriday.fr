@@ -3,7 +3,7 @@ import { formatReadingTime } from '../../utils/helpers'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'gatsby'
 
-export default ({ post, allCommentsYaml }) => {
+const PostHeader = ({ post, allCommentsYaml }) => {
   const comments = allCommentsYaml ? allCommentsYaml.edges : []
 
   return (
@@ -61,3 +61,5 @@ export default ({ post, allCommentsYaml }) => {
     </header>
   )
 }
+
+export default PostHeader

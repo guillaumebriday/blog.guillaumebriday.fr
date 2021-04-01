@@ -3,7 +3,7 @@ import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export default ({ data: { file } }) => (
+const Home = ({ data: { file } }) => (
   <div className="container py-16 mx-auto max-w-3xl px-3">
     <div className="flex justify-center">
       <div className="flex flex-col">
@@ -124,6 +124,7 @@ export default ({ data: { file } }) => (
   </div>
 )
 
+export default Home
 export const query = graphql`
   {
     file(relativePath: { eq: "me.jpg" }) {

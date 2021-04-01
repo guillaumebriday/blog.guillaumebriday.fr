@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => (
+const Education = () => (
   <section className="py-8 container max-w-6xl px-3">
     <h2 className="uppercase text-center text-4xl mb-8">Formation</h2>
 
@@ -129,3 +129,5 @@ export default () => (
     </article>
   </section>
 )
+
+export default Education

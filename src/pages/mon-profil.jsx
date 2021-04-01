@@ -8,7 +8,7 @@ import Experience from '../components/Resume/Experience'
 import Education from '../components/Resume/Education'
 import Hobbies from '../components/Resume/Hobbies'
 
-export default ({ data: { site, file } }) => (
+const Profile = ({ data: { site, file } }) => (
   <>
     <Helmet title={`Mon profil | ${site.siteMetadata.title}`} />
 
@@ -20,6 +20,7 @@ export default ({ data: { site, file } }) => (
   </>
 )
 
+export default Profile
 export const pageQuery = graphql`
   {
     site {

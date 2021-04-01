@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CommentForm from './CommentForm'
 import ReactMarkdown from 'react-markdown'
 
-export default ({ post, allCommentsYaml }) => {
+const CommentList = ({ post, allCommentsYaml }) => {
   const comments = allCommentsYaml ? allCommentsYaml.edges : []
 
   return (
@@ -48,3 +48,5 @@ export default ({ post, allCommentsYaml }) => {
     </>
   )
 }
+
+export default CommentList

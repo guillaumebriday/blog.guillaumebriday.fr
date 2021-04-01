@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => (
+const Hobbies = () => (
   <section className="pt-8 pb-16 bg-gray-200">
     <div className="container max-w-3xl px-3">
       <h2 className="uppercase text-center text-4xl mb-8">
@@ -160,3 +160,5 @@ export default () => (
     </div>
   </section>
 )
+
+export default Hobbies

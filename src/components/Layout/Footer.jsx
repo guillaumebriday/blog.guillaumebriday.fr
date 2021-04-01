@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export default () => {
+const Footer = () => {
   const { site } = useStaticQuery(graphql`
     {
       site {
@@ -169,3 +169,5 @@ export default () => {
     </footer>
   )
 }
+
+export default Footer

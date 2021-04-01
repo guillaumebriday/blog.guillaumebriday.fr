@@ -10,7 +10,7 @@ const slugify = (string) => {
     .replace(/\s/g, '-')
 }
 
-export default ({
+const Categories = ({
   data: {
     allMarkdownRemark: { group },
     site,
@@ -79,6 +79,7 @@ export default ({
   </>
 )
 
+export default Categories
 export const pageQuery = graphql`
   {
     site {

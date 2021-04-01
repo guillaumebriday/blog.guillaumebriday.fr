@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
-export default ({ data: { markdownRemark: page, site } }) => (
+const Page = ({ data: { markdownRemark: page, site } }) => (
   <>
     <Helmet title={`${page.frontmatter.title} | ${site.siteMetadata.title}`} />
 
@@ -18,6 +18,7 @@ export default ({ data: { markdownRemark: page, site } }) => (
   </>
 )
 
+export default Page
 export const pageQuery = graphql`
   query($slug: String!) {
     site {

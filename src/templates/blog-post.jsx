@@ -5,7 +5,7 @@ import PostPagination from '../components/Post/PostPagination'
 import CommentList from '../components/Comment/CommentList'
 import { graphql } from 'gatsby'
 
-export default ({
+const BlogPost = ({
   data: { markdownRemark: post, allCommentsYaml, site },
   pageContext,
 }) => (
@@ -39,6 +39,7 @@ export default ({
   </>
 )
 
+export default BlogPost
 export const pageQuery = graphql`
   query($slug: String!) {
     site {
@@ -46,6 +47,7 @@ export const pageQuery = graphql`
         title
       }
     }
+
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       timeToRead

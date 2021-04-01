@@ -1,7 +1,6 @@
 ---
-
 - id: "1"
-  slug: "un-mac-pour-le-prix-de-deux"
+  slug: "/un-mac-pour-le-prix-de-deux"
   author: Xavier Lasserre
   date: 2016-11-21 16:53:11
   content: |
@@ -10,7 +9,7 @@
     Et pour le petit mot de la fin, il est où mon port jack qui m’empêchait d’avoir une perte sur les fréquences basses et une retransmission « parfaite » de mon son car je n’étais pas obligé de passer par des adaptateurs multipliant les connexions ou du bluetooth rajoutant une compression du signal hein ? Il est où ? Ce bon vieux jack qui me permettait d’entendre chaque petit infime son participant à la beauté parfaite d’une musique que j’aurais téléchargé en ce format magique qu’est le FLAC ? /s 😉
 
 - id: "2"
-  slug: "un-mac-pour-le-prix-de-deux"
+  slug: "/un-mac-pour-le-prix-de-deux"
   author: Guillaume Briday
   date: 2016-11-21 17:13:06
   content: |
@@ -19,28 +18,28 @@
     Il y a un port jack sur le rMBP.
 
 - id: "3"
-  slug: "se-connecter-via-ssh-a-un-serveur-distant"
+  slug: "/se-connecter-via-ssh-a-un-serveur-distant"
   author: Rami
   date: 2017-08-15 17:34:40
   content: |
     Tres interessant
 
 - id: "4"
-  slug: "se-connecter-via-ssh-a-un-serveur-distant"
+  slug: "/se-connecter-via-ssh-a-un-serveur-distant"
   author: Guillaume Briday
   date: 2017-08-15 23:43:40
   content: |
     Merci Rami !
 
 - id: "5"
-  slug: "installer-et-utiliser-les-gitlab-runners"
+  slug: "/installer-et-utiliser-les-gitlab-runners"
   author: kara
   date: 2018-09-13 11:30:00
   content: |
     bonjour tout le monde, svp comment lancer plusieurs instance de gitlab-runner ?
 
 - id: "6"
-  slug: "installer-et-utiliser-les-gitlab-runners"
+  slug: "/installer-et-utiliser-les-gitlab-runners"
   author: Guillaume Briday
   date: 2018-09-29 07:26:00
   content: |
@@ -50,28 +49,28 @@
     Tu peux donc lancer la commande `gitlab-runner register` autant de fois que nécessaire sur une même instance ! Il y aura ainsi plusieurs configurations de `runners` dans ton fichier `~/.gitlab-runner/config.toml`.
 
 - id: "7"
-  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  slug: "/docker-ameliorer-les-performances-avec-le-cache"
   author: Alec Eiffel
   date: 2018-07-05 17:27:35
   content: |
     Je suppose que ces options ne fonctionnent pas sous Windows ?
 
 - id: "8"
-  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  slug: "/docker-ameliorer-les-performances-avec-le-cache"
   author: Guillaume Briday
   date: 2018-07-22 23:50:00
   content: |
     Salut Alec, à vérifier sur la documentation mais je crois bien que si.
 
 - id: "9"
-  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  slug: "/docker-ameliorer-les-performances-avec-le-cache"
   author: Christophe Caron
   date: 2018-09-26 01:06:00
   content: |
     Vous pouvez également vous tourner vers docker-sync qui fait des prouesses en terme de performances.
 
 - id: "10"
-  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  slug: "/docker-ameliorer-les-performances-avec-le-cache"
   author: Guillaume Briday
   date: 2018-09-29 07:26:00
   content: |
@@ -80,7 +79,7 @@
     Merci !
 
 - id: "11"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Lulu
   date: 2017-02-18 02:15:01
   content: |
@@ -89,14 +88,14 @@
     Merci
 
 - id: "12"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-02-21 18:05:55
   content: |
     Bonjour, je ne suis pas sûr d’avoir compris votre question, pouvez-vous détailler ? Merci 🙂
 
 - id: "13"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Arnaud
   date: 2017-02-28 10:45:59
   content: |
@@ -105,14 +104,14 @@
     Merci de ton aide.
 
 - id: "14"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-03-08 23:33:27
   content: |
     Merci pour ton retour :) J'ai essayé qu'une seule fois et de mémoire ça marche très bien directement sur le Synology. A tester pour être sûr, si tu peux nous confirmer ça, ce serait top !
 
 - id: "15"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Paul
   date: 2017-03-08 18:00:43
   content: |
@@ -127,7 +126,7 @@
     Merci de ton retour et encore bravo pour ton travail !
 
 - id: "16"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-03-08 23:31:02
   content: |
@@ -138,7 +137,7 @@
     Si tu as d'autres questions n'hésite pas :)
 
 - id: "17"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Jordan
   date: 2017-03-10 23:08:14
   content: |
@@ -147,14 +146,14 @@
     Car moi ayant presque 1Gbits de bande passante, je passe à 200Mbits en gardant ma LiveBox.
 
 - id: "18"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-03-11 13:00:06
   content: |
     Bonjour, les speedtests en étant sur la Livebox directement ou en passant par le Synology sont significativement les mêmes donc aucun problème pour moi à ce niveau là.
 
 - id: "19"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Paul
   date: 2017-03-15 17:20:20
   content: |
@@ -167,7 +166,7 @@
     Bonne journée !
 
 - id: "20"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-03-18 14:36:48
   content: |
@@ -178,7 +177,7 @@
     Ah oui ce serait top ! Avec plaisir, merci à toi.
 
 - id: "21"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: trotroyanas
   date: 2017-03-27 22:33:34
   content: |
@@ -195,14 +194,14 @@
     cH.
 
 - id: "22"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-04-07 17:42:01
   content: |
     Salut, tu as essayé en accès direct pour savoir si le problème venait vraiment de ta configuration ? :)
 
 - id: "23"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guy
   date: 2017-04-06 19:39:54
   content: |
@@ -220,7 +219,7 @@
     Guy
 
 - id: "24"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Simon
   date: 2017-07-07 14:53:50
   content: |
@@ -235,7 +234,7 @@
     Merci à toi
 
 - id: "25"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Geoffrey
   date: 2017-10-05 17:06:00
   content: |
@@ -273,7 +272,7 @@
     Geoffrey
 
 - id: "26"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-10-07 13:55:00
   content: |
@@ -290,21 +289,21 @@
     En espérant avoir répondu à ta question :)
 
 - id: "27"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Olivier
   date: 2017-10-26 09:20:01
   content: |
     Merci pour ton tuto, il m'a bien servi pour connecter mon RT1900 sur ma livebox zen. J'ai pu le mettre à jour et m'apercevoir que SRM a bien évolué.
 
 - id: "28"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-11-03 20:54:00
   content: |
     Merci Olivier pour ton commentaire. Oui SRM et DSM évoluent très vite en restant très stable c'est super agréable à l'usage !
 
 - id: "29"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Pilou
   date: 2017-11-27 11:00:46
   content: |
@@ -325,7 +324,7 @@
     Merci d'avance pour ton retour.
 
 - id: "30"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-11-27 20:00:00
   content: |
@@ -343,7 +342,7 @@
     Merci à toi.
 
 - id: "31"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Pilou
   date: 2017-11-28 09:27:19
   content: |
@@ -362,7 +361,7 @@
     En tout cas merci dans pour ton retour!
 
 - id: "32"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2017-11-29 13:27:00
   content: |
@@ -377,14 +376,14 @@
     Merci à toi !
 
 - id: "33"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Yann@44-Atlantique-PC-Assistance-Informatique
   date: 2018-01-19 18:39:45
   content: |
     Article clair même s’il vaut mieux s’y connaitre un minimum en réseau pour le comprendre! Je réalise à peu près la même chose avec un routeur Netgear connecté derrière la box, mais suis intéressé par ce routeur Synology... intéressant qu’un DDNS soit proposé, c’est dingue qu’un FAI comme Orange ne le propose toujours pas... ça permettrait de pallier aux IP qui ne sont toujours pas fixes (gratuitement) pour les particuliers.
 
 - id: "34"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Daniel
   date: 2018-02-28 13:45:23
   content: |
@@ -399,7 +398,7 @@
     Si tu as une idée, je suis preneur
 
 - id: "35"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2018-03-04 20:27:00
   content: |
@@ -410,7 +409,7 @@
     J'en parle dans l'edit 2 si besoin.
 
 - id: "36"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Emmanuel
   date: 2018-03-08 08:48:39
   content: |
@@ -425,7 +424,7 @@
     Par avance merci de votre retour :)
 
 - id: "37"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Octavi
   date: 2018-04-17 10:03:22
   content: |
@@ -434,7 +433,7 @@
     Merci beaucoup pour votre travail, c'est génial.
 
 - id: "38"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Rank Xerox
   date: 2018-04-18 20:02:15
   content: |
@@ -452,7 +451,7 @@
     l'IP V6 est configuré en "auto", mais cela ne fonctionne pas.
 
 - id: "39"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Rank Xerox
   date: 2018-10-09 11:30:00
   content: |
@@ -467,7 +466,7 @@
     Penses-tu pouvoir tester ce nouveau firmware et nous faire un retour via une nouvelle update ?
 
 - id: "40"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2018-10-14 23:25:00
   content: |
@@ -478,7 +477,7 @@
     Je vais tester dès que j'aurais de nouveau une box chez moi et je ferais un retour si je trouve des trucs intéressant à dire dessus oui !
 
 - id: "41"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Darmagezan
   date: 2018-10-30 07:11:00
   content: |
@@ -489,7 +488,7 @@
     Merci par avance et bonne journée :)
 
 - id: "42"
-  slug: "comprendre-et-mettre-en-place-docker"
+  slug: "/comprendre-et-mettre-en-place-docker"
   author: Nicolas Dutertry
   date: 2017-07-13 16:41:46
   content: |
@@ -500,7 +499,7 @@
     Pour la communication entre conteneur il vaut mieux utiliser un réseau utilisateur.
 
 - id: "43"
-  slug: "comprendre-et-mettre-en-place-docker"
+  slug: "/comprendre-et-mettre-en-place-docker"
   author: Guillaume Briday
   date: 2017-07-13 23:56:00
   content: |
@@ -513,35 +512,35 @@
     Merci !
 
 - id: "44"
-  slug: "comprendre-et-mettre-en-place-docker"
+  slug: "/comprendre-et-mettre-en-place-docker"
   author: Stefan
   date: 2018-02-08 10:47:12
   content: |
     Merci pour ces éclaircissements sur Docker
 
 - id: "45"
-  slug: "comprendre-et-mettre-en-place-docker"
+  slug: "/comprendre-et-mettre-en-place-docker"
   author: Hugo
   date: 2018-12-18 10:07:00
   content: |
     Très bon article, merci !
 
 - id: "46"
-  slug: "comment-jutilise-git-mes-astuces-et-bonnes-pratiques"
+  slug: "/comment-jutilise-git-mes-astuces-et-bonnes-pratiques"
   author: Louis
   date: 2018-04-25 13:17:48
   content: |
     Très bonne explication, tout y est. Bravo !
 
 - id: "47"
-  slug: "comment-jutilise-git-mes-astuces-et-bonnes-pratiques"
+  slug: "/comment-jutilise-git-mes-astuces-et-bonnes-pratiques"
   author: Guillaume Briday
   date: 2018-04-26 10:12:00
   content: |
     Salut Thibault, merci pour tes retours !
 
 - id: "48"
-  slug: "comment-je-sauvegarde-mes-donnees"
+  slug: "/comment-je-sauvegarde-mes-donnees"
   author: clément
   date: 2017-08-18 16:31:17
   content: |
@@ -552,7 +551,7 @@
     Est-ce bien ce que tu as expliqué?
 
 - id: "49"
-  slug: "comment-je-sauvegarde-mes-donnees"
+  slug: "/comment-je-sauvegarde-mes-donnees"
   author: Guillaume Briday
   date: 2017-08-18 22:52:17
   content: |
@@ -571,7 +570,7 @@
     En espérant avoir répondu à ta question :)
 
 - id: "50"
-  slug: "bien-configurer-son-environnement-de-developpement"
+  slug: "/bien-configurer-son-environnement-de-developpement"
   author: Jennifer
   date: 2018-08-12 16:52:43
   content: |
@@ -584,7 +583,7 @@
     Jennifer
 
 - id: "51"
-  slug: "bien-configurer-son-environnement-de-developpement"
+  slug: "/bien-configurer-son-environnement-de-developpement"
   author: Guillaume Briday
   date: 2018-07-22 23:50:00
   content: |
@@ -595,7 +594,7 @@
     C'est ce qui est vraiment top avec ce système !
 
 - id: "52"
-  slug: "ajouter-de-la-ram-sur-un-synology-1515+"
+  slug: "/ajouter-de-la-ram-sur-un-synology-1515+"
   author: Thibault
   date: 2018-03-04 11:08:10
   content: |
@@ -612,7 +611,7 @@
     Cela pourrait faire l'objet d'un article Guillaume :D
 
 - id: "53"
-  slug: "ajouter-de-la-ram-sur-un-synology-1515+"
+  slug: "/ajouter-de-la-ram-sur-un-synology-1515+"
   author: Guillaume Briday
   date: 2018-03-04 20:38:00
   content: |
@@ -625,7 +624,7 @@
     Merci, à bientôt !
 
 - id: "54"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Xavier
   date: 2019-03-19 22:19:00
   content: |
@@ -639,14 +638,14 @@
     Merci d'avance
 
 - id: "55"
-  slug: "laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
+  slug: "/laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
   author: Mathias
   date: 2019-02-22 08:48:00
   content: |
     Super article super détaillé, et accessible ! Good job
 
 - id: "56"
-  slug: "laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
+  slug: "/laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
   author: Guillaume Briday
   date: 2019-02-23 16:04:00
   content: |
@@ -655,7 +654,7 @@
     Merci pour ton retour, j'espère avoir pu aider un peu !
 
 - id: "57"
-  slug: "installer-et-utiliser-les-gitlab-runners"
+  slug: "/installer-et-utiliser-les-gitlab-runners"
   author: Carlito
   date: 2019-01-23 14:20:00
   content: |
@@ -670,7 +669,7 @@
     Je vous remercie par avance
 
 - id: "58"
-  slug: "installer-et-utiliser-les-gitlab-runners"
+  slug: "/installer-et-utiliser-les-gitlab-runners"
   author: Guillaume Briday
   date: 2019-02-23 16:11:00
   content: |
@@ -681,7 +680,7 @@
     Tu n'as rien besoin de faire de plus, une fois installé Gitlab runner s'occupe de tout
 
 - id: "59"
-  slug: "problemes-de-produits-cartesiens-sur-mysql"
+  slug: "/problemes-de-produits-cartesiens-sur-mysql"
   author: Victor
   date: 2019-07-11 16:53:00
   content: |
@@ -690,21 +689,21 @@
     Bonne journée
 
 - id: "60"
-  slug: "changer-de-fenetres-d-une-meme-application-sur-macOS"
+  slug: "/changer-de-fenetres-d-une-meme-application-sur-macOS"
   author: Kambro
   date: 2019-09-21 08:42:00
   content: |
     Merci pour cette astuce.
 
 - id: "61"
-  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  slug: "/docker-ameliorer-les-performances-avec-le-cache"
   author: Ciaccafava
   date: 2019-09-21 08:42:00
   content: |
     Merci pour cet article bien écrit, ça m'a bien servi :)
 
 - id: "62"
-  slug: "comprendre-et-mettre-en-place-docker"
+  slug: "/comprendre-et-mettre-en-place-docker"
   author: Ciaccafava
   date: 2019-09-21 08:42:00
   content: |
@@ -713,14 +712,14 @@
     ça mas aidé a mieux comprendre
 
 - id: "63"
-  slug: "comprendre-et-mettre-en-place-docker"
+  slug: "/comprendre-et-mettre-en-place-docker"
   author: Yatagami
   date: 2019-05-10 15:33:00
   content: |
     Bon article, clair et concis ça fait plaisir, au plaisir d'en lire un autre. :)
 
 - id: "64"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: chaouqui
   date: 2019-09-29 15:25:00
   content: |
@@ -730,7 +729,7 @@
     comme sur mon rt-n66u en vlan 835
 
 - id: "65"
-  slug: "os-x-monter-disque-reseau-demarrage"
+  slug: "/os-x-monter-disque-reseau-demarrage"
   author: ElSandwicho
   date: 2019-11-18 15:25:00
   content: |
@@ -739,14 +738,14 @@
     Si vous avez une astuce, je prends !
 
 - id: "66"
-  slug: "laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
+  slug: "/laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
   author: diego
   date: 2019-11-29 17:14:00
   content: |
     Nice
 
 - id: "67"
-  slug: "installer-et-utiliser-les-gitlab-runners"
+  slug: "/installer-et-utiliser-les-gitlab-runners"
   author: Georges
   date: 2019-12-09 14:14:00
   content: |
@@ -767,7 +766,7 @@
     Georges
 
 - id: "68"
-  slug: "installer-et-utiliser-les-gitlab-runners"
+  slug: "/installer-et-utiliser-les-gitlab-runners"
   author: Guillaume Briday
   date: 2019-12-12 14:08:00
   content: |
@@ -780,7 +779,7 @@
     Guillaume
 
 - id: "69"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Patrick Mignon
   date: 2020-04-12 08:29:00
   content: |
@@ -801,7 +800,7 @@
     Merci de vos conseils.
 
 - id: "70"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Patrick
   date: 2020-04-10 11:18:00
   content: |
@@ -824,7 +823,7 @@
     Patrick
 
 - id: "71"
-  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  slug: "/configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
   author: Guillaume Briday
   date: 2020-04-14 18:30:00
   content: |

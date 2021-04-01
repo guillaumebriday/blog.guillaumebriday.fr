@@ -112,3 +112,19 @@ exports.onCreateNode = ({ node, getNode, actions: { createNodeField } }) => {
     }
   }
 }
+
+exports.onCreateWebpackConfig = ({ actions, stage, plugins }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        path: require.resolve('path-browserify'),
+      },
+    },
+  })
+
+  if (stage === 'build-javascript' || stage === 'develop') {
+    actions.setWebpackConfig({
+      plugins: [plugins.provide({ process: 'process/browser' })],
+    })
+  }
+}

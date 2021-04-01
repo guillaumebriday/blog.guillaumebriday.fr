@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export default ({ posts }) => (
+const PostList = ({ posts }) => (
   <ul>
     {posts
       .filter((post) => post.node.frontmatter.title.length > 0)
@@ -44,3 +44,5 @@ export default ({ posts }) => (
       ))}
   </ul>
 )
+
+export default PostList
