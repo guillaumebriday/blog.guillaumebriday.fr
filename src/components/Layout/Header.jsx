@@ -44,6 +44,10 @@ const Header = ({ isBlog }) => {
               Talks
             </Link>
 
+            <Link getProps={className} to="/podcast">
+              Podcast
+            </Link>
+
             <Link getProps={className} to="/mon-profil">
               Mon profil
             </Link>
