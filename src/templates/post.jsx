@@ -53,7 +53,10 @@ export const pageQuery = graphql`
       }
     }
 
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(
+      frontmatter: { layout: { eq: "post" } }
+      fields: { slug: { eq: $slug } }
+    ) {
       html
       timeToRead
       fields {

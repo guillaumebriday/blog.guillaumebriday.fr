@@ -40,7 +40,7 @@ exports.createPages = ({ actions: { createPage }, graphql }) => {
 
       createPage({
         path: post.fields.slug,
-        component: path.resolve(`src/templates/blog-post.jsx`),
+        component: path.resolve(`src/templates/post.jsx`),
         context: {
           slug: post.fields.slug,
           previous,
@@ -67,7 +67,7 @@ exports.createPages = ({ actions: { createPage }, graphql }) => {
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
         path: i === 0 ? `/articles` : `/articles/page/${i + 1}`,
-        component: path.resolve(`./src/templates/blog.jsx`),
+        component: path.resolve(`./src/posts/index.jsx`),
         context: {
           limit: postsPerPage,
           skip: i * postsPerPage,
