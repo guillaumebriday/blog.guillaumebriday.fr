@@ -157,10 +157,10 @@ const Footer = () => {
             <li>
               <a
                 className="text-gray-500 hover:text-gray-100"
-                href="https://www.paypal.me/guillaumebriday"
+                href="https://github.com/sponsors/guillaumebriday"
                 title="M'offrir un café"
               >
-                <FontAwesomeIcon icon={['fab', 'paypal']} />
+                <FontAwesomeIcon icon="mug-hot" />
               </a>
             </li>
           </ul>

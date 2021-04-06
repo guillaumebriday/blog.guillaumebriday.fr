@@ -6,6 +6,7 @@ import {
   faComments,
   faChevronRight,
   faSpinner,
+  faMugHot,
   faAtom,
 } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -20,7 +21,6 @@ import {
   faLinkedin,
   faTwitch,
   faAmazon,
-  faPaypal,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -47,7 +47,7 @@ library.add(
   faTwitch,
   faYoutube,
   faAmazon,
-  faPaypal
+  faMugHot
 )
 
 export const onRouteUpdate = () => {
