@@ -33,6 +33,9 @@ exports.createPages = ({ actions: { createPage }, graphql }) => {
     const pages = edges.filter(
       ({ node: page }) => page.frontmatter.layout === 'page'
     )
+    const podcasts = edges.filter(
+      ({ node: podcast }) => podcast.frontmatter.layout === 'podcast'
+    )
 
     posts.forEach(({ node: post }, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
@@ -46,6 +49,22 @@ exports.createPages = ({ actions: { createPage }, graphql }) => {
           previous,
           next,
           isBlog: true,
+        },
+      })
+    })
+
+    podcasts.forEach(({ node: podcast }, index) => {
+      const previous =
+        index === podcasts.length - 1 ? null : podcasts[index + 1].node
+      const next = index === 0 ? null : podcasts[index - 1].node
+
+      createPage({
+        path: `/podcast${podcast.fields.slug}`,
+        component: path.resolve(`src/templates/podcast.jsx`),
+        context: {
+          slug: podcast.fields.slug,
+          previous,
+          next,
         },
       })
     })

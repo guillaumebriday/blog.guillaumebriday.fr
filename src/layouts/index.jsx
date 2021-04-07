@@ -28,12 +28,6 @@ const Layout = ({ children, location, pageContext }) => {
         <html lang={site.siteMetadata.lang}></html>
         <meta name="description" content={site.siteMetadata.description} />
         <meta name="author" content={site.siteMetadata.author} />
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="Guillaume Briday's Podcast"
-          href="https://feed.ausha.co/yA4zaUrOm3En"
-        />
       </Helmet>
 
       <div className="flex flex-col min-h-screen font-sans leading-normal">
