@@ -15,9 +15,8 @@ const BlogPost = ({
         {post.frontmatter.title} | {site.siteMetadata.title}
       </title>
       <html lang={post.fields.lang}></html>
-      {post.frontmatter.description && (
-        <meta name="description" content={post.frontmatter.description} />
-      )}
+
+      <meta name="description" content={post.frontmatter.description || post.excerpt} />
     </Helmet>
 
     <article itemScope="" itemType="http://schema.org/BlogPosting">
@@ -59,6 +58,7 @@ export const pageQuery = graphql`
     ) {
       html
       timeToRead
+      excerpt(pruneLength: 250)
       fields {
         slug
         lang

@@ -10,9 +10,7 @@ const Page = ({ data: { markdownRemark: podcast, site }, pageContext }) => (
         {podcast.frontmatter.title} | {site.siteMetadata.title}
       </title>
 
-      {podcast.frontmatter.description && (
-        <meta name="description" content={podcast.frontmatter.description} />
-      )}
+      <meta name="description" content={podcast.frontmatter.description || podcast.excerpt} />
 
       <script src="https://player.ausha.co/ausha-player.js" defer></script>
     </Helmet>
@@ -85,6 +83,7 @@ export const pageQuery = graphql`
       fields: { slug: { eq: $slug } }
     ) {
       html
+      excerpt(pruneLength: 250)
       fields {
         datePublished: date(formatString: "YYYY-MM-DD")
         date: date(formatString: "DD MMMM YYYY", locale: "fr")
