@@ -31,7 +31,10 @@ export const pageQuery = graphql`
       }
     }
 
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(
+      frontmatter: { layout: { eq: "page" } }
+      fields: { slug: { eq: $slug } }
+    ) {
       html
       frontmatter {
         title
