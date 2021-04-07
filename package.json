@@ -7,8 +7,8 @@
     "develop": "gatsby develop",
     "serve": "gatsby build && gatsby serve",
     "serve:production": "NODE_ENV=production gatsby build && gatsby serve",
-    "format": "prettier --write 'src/{**/*,*}.{js,jsx}'",
-    "lint": "prettier --list-different 'src/{**/*,*}.{js,jsx}'"
+    "format": "prettier --write '{**/*,*}.{js,jsx}'",
+    "lint": "prettier --list-different '{**/*,*}.{js,jsx}'"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.35",
@@ -16,6 +16,7 @@
     "@fortawesome/free-regular-svg-icons": "5.15.3",
     "@fortawesome/free-solid-svg-icons": "5.15.3",
     "@fortawesome/react-fontawesome": "0.1.14",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "algoliasearch": "4.8.6",
     "gatsby": "3.2.1",
     "gatsby-image": "3.2.0",

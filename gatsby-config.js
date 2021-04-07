@@ -40,7 +40,7 @@ module.exports = {
     description: `Ce blog est à propos des nouvelles technologies, de mes humeurs, de développement Web, de photos... En bref, de tout ce dont j'ai envie de parler.`,
     siteUrl: `https://guillaumebriday.fr`,
     lang: 'fr',
-    author: 'Guillaume Briday'
+    author: 'Guillaume Briday',
   },
   plugins: [
     {
@@ -66,6 +66,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/posts`,
         name: 'posts',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/podcasts`,
+        name: 'podcasts',
       },
     },
     {
@@ -154,17 +161,17 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map((edge) => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  date: edge.node.fields.date,
-                  url: [site.siteMetadata.siteUrl, edge.node.fields.slug].join(
-                    '/'
-                  ),
-                  guid: [site.siteMetadata.siteUrl, edge.node.fields.slug].join(
-                    '/'
-                  ),
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
+              return allMarkdownRemark.edges.map(({ node }) => {
+                const url = [site.siteMetadata.siteUrl, node.fields.slug].join(
+                  '/'
+                )
+
+                return Object.assign({}, node.frontmatter, {
+                  description: node.description || node.excerpt,
+                  date: node.fields.date,
+                  url,
+                  guid: url,
+                  custom_elements: [{ 'content:encoded': node.html }],
                 })
               })
             },
@@ -196,13 +203,58 @@ module.exports = {
             title: 'Guillaume Briday',
           },
           {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(({ node }) => {
+                const url = [site.siteMetadata.siteUrl, node.fields.slug].join(
+                  '/'
+                )
+
+                return Object.assign({}, node.frontmatter, {
+                  description: node.description || node.excerpt,
+                  date: node.fields.date,
+                  url,
+                  guid: url,
+                  custom_elements: [{ 'content:encoded': node.html }],
+                })
+              })
+            },
+            query: `
+            {
+              allMarkdownRemark(
+                limit: 1000,
+                sort: { order: DESC, fields: [fields___date] },
+                filter: {frontmatter: { layout: { eq: "podcast" } }}
+              ) {
+                edges {
+                  node {
+                    excerpt
+                    html
+                    fields {
+                      slug
+                      date
+                    }
+                    frontmatter {
+                      layout
+                      title
+                    }
+                  }
+                }
+              }
+            }
+          `,
+            output: '/podcast.xml',
+            title: "Guillaume Briday's Podcast",
+          },
+          {
             serialize: ({ query: { site, allTalksYaml } }) => {
-              return allTalksYaml.edges.map((edge) => {
-                return Object.assign({}, edge.node, {
-                  description: edge.node.description,
-                  date: edge.node.date,
-                  url: [site.siteMetadata.siteUrl, 'talks'].join('/'),
-                  guid: [site.siteMetadata.siteUrl, 'talks'].join('/'),
+              return allTalksYaml.edges.map(({ node }) => {
+                const url = [site.siteMetadata.siteUrl, 'talks'].join('/')
+
+                return Object.assign({}, node, {
+                  description: node.description,
+                  date: node.date,
+                  url: url,
+                  guid: url,
                 })
               })
             },
