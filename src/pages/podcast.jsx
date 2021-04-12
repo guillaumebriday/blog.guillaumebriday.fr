@@ -1,7 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import PodcastList from '../components/Podcast/PodcastList'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Podcast = ({
   data: {
@@ -28,6 +29,38 @@ const Podcast = ({
           J'ai lancé un Podcast avec des amis pour parler de Tech, de Business,
           de DevOps, de Produits et plein d'autres choses !
         </p>
+
+        <div className="flex flex-wrap gap-2 mb-4">
+          <div>
+            <Link
+              to="https://podcasts.apple.com/fr/podcast/expressions-irr%C3%A9guli%C3%A8res/id1562503305"
+              className="inline-block px-2 py-1 border border-gray-900 text-gray-900 rounded"
+            >
+              <FontAwesomeIcon className="mr-2" icon="podcast" />
+              Apple Podcasts
+            </Link>
+          </div>
+
+          <div>
+            <Link
+              to="https://open.spotify.com/show/1WAZVCkc8AytLSxYihXnSR"
+              className="inline-block px-2 py-1 border border-gray-900 text-gray-900 rounded"
+            >
+              <FontAwesomeIcon className="mr-2" icon={['fab', 'spotify']} />
+              Spotify
+            </Link>
+          </div>
+
+          <div>
+            <Link
+              to="https://feed.ausha.co/yA4zaUrOm3En"
+              className="inline-block px-2 py-1 border border-gray-900 text-gray-900 rounded"
+            >
+              <FontAwesomeIcon className="mr-2" icon="rss" />
+              RSS
+            </Link>
+          </div>
+        </div>
       </div>
 
       <iframe
@@ -36,7 +69,7 @@ const Podcast = ({
         height="420"
         id="ausha-haRX"
         style={{ border: 'none', width: '100%', height: '420px' }}
-        src="https://player.ausha.co/index.html?showId=yA4zaUrOm3En&color=%23f12e49&multishow=true&playlist=true&playlistSlug=les-rubistes-lyonnais&podcastId=omnZ4s0q0wG8&v=3&playerId=ausha-haRX"
+        src="https://player.ausha.co/index.html?showId=yA4zaUrOm3En&color=%236574cd&multishow=true&playlist=true&podcastId=omnZ4s0q0wG8&v=3&playerId=ausha-haRX"
       ></iframe>
 
       <PodcastList podcasts={podcasts} />

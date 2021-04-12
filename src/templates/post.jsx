@@ -16,7 +16,10 @@ const BlogPost = ({
       </title>
       <html lang={post.fields.lang}></html>
 
-      <meta name="description" content={post.frontmatter.description || post.excerpt} />
+      <meta
+        name="description"
+        content={post.frontmatter.description || post.excerpt}
+      />
     </Helmet>
 
     <article itemScope="" itemType="http://schema.org/BlogPosting">

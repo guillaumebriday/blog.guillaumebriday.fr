@@ -8,6 +8,7 @@ import {
   faSpinner,
   faMugHot,
   faAtom,
+  faPodcast,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faCalendarAlt,
@@ -22,6 +23,7 @@ import {
   faTwitch,
   faAmazon,
   faYoutube,
+  faSpotify,
 } from '@fortawesome/free-brands-svg-icons'
 
 import './src/styles/tailwind.css'
@@ -47,6 +49,8 @@ library.add(
   faTwitch,
   faYoutube,
   faAmazon,
+  faSpotify,
+  faPodcast,
   faMugHot
 )
 

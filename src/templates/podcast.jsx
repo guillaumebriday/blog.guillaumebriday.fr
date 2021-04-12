@@ -10,7 +10,10 @@ const Page = ({ data: { markdownRemark: podcast, site }, pageContext }) => (
         {podcast.frontmatter.title} | {site.siteMetadata.title}
       </title>
 
-      <meta name="description" content={podcast.frontmatter.description || podcast.excerpt} />
+      <meta
+        name="description"
+        content={podcast.frontmatter.description || podcast.excerpt}
+      />
 
       <script src="https://player.ausha.co/ausha-player.js" defer></script>
     </Helmet>
@@ -41,7 +44,7 @@ const Page = ({ data: { markdownRemark: podcast, site }, pageContext }) => (
             height="420"
             title="Ausha player"
             style={{ border: 'none', width: '100%', height: '420px' }}
-            src={`https://player.ausha.co/index.html?showId=yA4zaUrOm3En&color=%23f12e49&podcastId=${podcast.frontmatter.podcastId}&v=3&playerId=ausha-N6mb`}
+            src={`https://player.ausha.co/index.html?showId=yA4zaUrOm3En&color=%236574cd&podcastId=${podcast.frontmatter.podcastId}&v=3&playerId=ausha-N6mb`}
           ></iframe>
         )}
 
