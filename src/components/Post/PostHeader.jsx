@@ -8,25 +8,17 @@ const PostHeader = ({ post, allCommentsYaml }) => {
 
   return (
     <header className="pb-4 mb-8 border-b">
-      <Link
-        to="/categories"
-        itemProp="articleSection"
-        className="btn btn--lightest btn--sm"
-      >
+      <Link to="/categories" className="btn btn--lightest btn--sm">
         {post.frontmatter.category}
       </Link>
 
-      <h1 className="my-2 text-black leading-tight" itemProp="name">
+      <h1 className="my-2 text-black leading-tight">
         {post.frontmatter.title}
       </h1>
 
       <ul className="mb-4 text-sm text-indigo-500">
         <li className="block sm:inline-block mr-3">
-          <time
-            dateTime={post.fields.datePublished}
-            itemProp="datePublished"
-            content={post.fields.datePublished}
-          >
+          <time dateTime={post.fields.datePublished}>
             <FontAwesomeIcon
               icon={['far', 'calendar-alt']}
               className="mr-1 text-indigo-200"
@@ -37,9 +29,7 @@ const PostHeader = ({ post, allCommentsYaml }) => {
 
         <li className="block sm:inline-block sm:border-l sm:pl-3 mr-3 border-indigo-500">
           <FontAwesomeIcon icon="user" className="mr-1 text-indigo-200" /> Par
-          <span itemProp="author" itemScope itemType="http://schema.org/Person">
-            <span itemProp="name"> Guillaume Briday</span>
-          </span>
+          Guillaume Briday
         </li>
 
         <li className="block sm:inline-block sm:border-l sm:pl-3 mr-3 border-indigo-500">

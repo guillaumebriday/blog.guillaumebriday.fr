@@ -4,27 +4,18 @@ import { Link } from 'gatsby'
 const PodcastList = ({ podcasts }) => (
   <ul className="mt-4">
     {podcasts.map(({ node: podcast }) => (
-      <li
-        className="mb-8"
-        key={podcast.id}
-        itemScope=""
-        itemType="http://schema.org/BlogPosting"
-      >
+      <li className="mb-8" key={podcast.id}>
         <h2 className="font-semibold mb-0 mt-2 leading-tight">
           <Link to={`/podcast${podcast.fields.slug}`} className="text-black">
-            <span itemProp="name">{podcast.frontmatter.title}</span>
+            {podcast.frontmatter.title}
           </Link>
         </h2>
 
         <div className="text-gray-700 text-sm">
           Le{' '}
-          <span
-            itemProp="datePublished"
-            className="font-light"
-            content={podcast.fields.datePublished}
-          >
+          <time className="font-light" dateTime={podcast.fields.datePublished}>
             {podcast.fields.date}
-          </span>
+          </time>
         </div>
 
         {podcast.frontmatter.description && (

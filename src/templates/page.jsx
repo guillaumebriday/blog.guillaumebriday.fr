@@ -1,21 +1,16 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import Seo from '../components/Seo/Seo'
 import { graphql } from 'gatsby'
 
 const Page = ({ data: { markdownRemark: page, site } }) => (
   <>
-    <Helmet>
-      <title>
-        {page.frontmatter.title} | {site.siteMetadata.title}
-      </title>
-    </Helmet>
+    <Seo site={site} page={page}></Seo>
 
     <div className="container px-3 py-16 mx-auto max-w-3xl">
       <h1 className="leading-tight">{page.frontmatter.title}</h1>
 
       <div
         className="post-content"
-        itemProp="articleBody"
         dangerouslySetInnerHTML={{ __html: page.html }}
       />
     </div>
@@ -28,6 +23,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        author
+        siteUrl
       }
     }
 
@@ -37,7 +34,11 @@ export const pageQuery = graphql`
     ) {
       html
       frontmatter {
+        layout
         title
+      }
+      fields {
+        lang
       }
     }
   }

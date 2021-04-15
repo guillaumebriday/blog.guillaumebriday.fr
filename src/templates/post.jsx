@@ -1,8 +1,8 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import PostHeader from '../components/Post/PostHeader'
 import PostPagination from '../components/Post/PostPagination'
 import CommentList from '../components/Comment/CommentList'
+import Seo from '../components/Seo/Seo'
 import { graphql } from 'gatsby'
 
 const BlogPost = ({
@@ -10,17 +10,7 @@ const BlogPost = ({
   pageContext,
 }) => (
   <>
-    <Helmet>
-      <title>
-        {post.frontmatter.title} | {site.siteMetadata.title}
-      </title>
-      <html lang={post.fields.lang}></html>
-
-      <meta
-        name="description"
-        content={post.frontmatter.description || post.excerpt}
-      />
-    </Helmet>
+    <Seo site={site} page={post}></Seo>
 
     <article itemScope="" itemType="http://schema.org/BlogPosting">
       <div className="container pt-16 px-3 max-w-3xl">
@@ -28,7 +18,6 @@ const BlogPost = ({
 
         <div
           className="post-content"
-          itemProp="articleBody"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </div>
@@ -52,6 +41,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        author
+        siteUrl
       }
     }
 
@@ -69,6 +60,7 @@ export const pageQuery = graphql`
         date: date(formatString: "DD MMMM YYYY", locale: "fr")
       }
       frontmatter {
+        layout
         title
         description
         category

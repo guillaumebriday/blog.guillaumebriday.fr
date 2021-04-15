@@ -2,35 +2,24 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PodcastPagination from '../components/Podcast/PodcastPagination'
+import Seo from '../components/Seo/Seo'
 
 const Page = ({ data: { markdownRemark: podcast, site }, pageContext }) => (
   <>
+    <Seo site={site} page={podcast}></Seo>
     <Helmet>
-      <title>
-        {podcast.frontmatter.title} | {site.siteMetadata.title}
-      </title>
-
-      <meta
-        name="description"
-        content={podcast.frontmatter.description || podcast.excerpt}
-      />
-
       <script src="https://player.ausha.co/ausha-player.js" defer></script>
     </Helmet>
 
-    <article itemScope="" itemType="http://schema.org/BlogPosting">
+    <article>
       <div className="container px-3 py-16 mx-auto max-w-3xl">
         <h1 className="leading-tight">{podcast.frontmatter.title}</h1>
 
         <div className="text-gray-700 text-sm">
           Le{' '}
-          <span
-            itemProp="datePublished"
-            className="font-light"
-            content={podcast.fields.datePublished}
-          >
+          <time className="font-light" dateTime={podcast.fields.datePublished}>
             {podcast.fields.date}
-          </span>
+          </time>
         </div>
 
         {podcast.frontmatter.description && (
@@ -60,7 +49,6 @@ const Page = ({ data: { markdownRemark: podcast, site }, pageContext }) => (
 
         <div
           className="post-content"
-          itemProp="articleBody"
           dangerouslySetInnerHTML={{ __html: podcast.html }}
         />
       </div>
@@ -78,6 +66,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        author
+        siteUrl
       }
     }
 
@@ -92,6 +82,7 @@ export const pageQuery = graphql`
         date: date(formatString: "DD MMMM YYYY", locale: "fr")
       }
       frontmatter {
+        layout
         title
         description
         podcastId

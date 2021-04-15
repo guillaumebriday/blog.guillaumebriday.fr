@@ -6,17 +6,8 @@ const PostList = ({ posts }) => (
     {posts
       .filter((post) => post.node.frontmatter.title.length > 0)
       .map(({ node: post }) => (
-        <li
-          className="mb-8"
-          key={post.id}
-          itemScope=""
-          itemType="http://schema.org/BlogPosting"
-        >
-          <Link
-            to="/categories"
-            itemProp="articleSection"
-            className="btn btn--lightest btn--sm"
-          >
+        <li className="mb-8" key={post.id}>
+          <Link to="/categories" className="btn btn--lightest btn--sm">
             {post.frontmatter.category}
           </Link>
 
@@ -26,17 +17,13 @@ const PostList = ({ posts }) => (
               className="text-black"
               hrefLang={post.fields.lang}
             >
-              <span itemProp="name">{post.frontmatter.title}</span>
+              <span>{post.frontmatter.title}</span>
             </Link>
           </h2>
 
           <div className="text-gray-700 text-sm">
             Le{' '}
-            <span
-              itemProp="datePublished"
-              className="font-light"
-              content={post.fields.datePublished}
-            >
+            <span className="font-light" content={post.fields.datePublished}>
               {post.fields.date}
             </span>
           </div>
