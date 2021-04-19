@@ -4,7 +4,7 @@
   "author": "Guillaume Briday",
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "serve": "gatsby build && gatsby serve",
     "serve:production": "NODE_ENV=production gatsby build && gatsby serve",
     "format": "prettier --write '{**/*,*}.{js,jsx}'",
