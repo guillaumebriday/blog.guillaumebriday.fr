@@ -16,14 +16,15 @@ const Experience = () => (
             </p>
 
             <h3 className="text-indigo-500">
-              Développeur Web et concepteur chez{' '}
+              Lead Developer & DevOps chez{' '}
               <a href="https://www.studio-hb.com/">Studio-HB</a>
             </h3>
 
             <p className="text-gray-700 leading-loose">
-              Développer des solutions ergonomiques et abouties créées avec Ruby
-              On Rails, VueJS et Docker. Travailler en équipe et avec le client
-              en méthode agile Scrum.
+              Je travaille avec Ruby on Rails, Vue JS, Stimulus, Tailwind CSS,
+              PostgreSQL et Ansible pour construire des MVPs et des sites
+              vitrines. Je déploie, avec GitLab CI et Capistrano, des
+              applications testées avec RSpec et Jest.
             </p>
           </div>
         </div>

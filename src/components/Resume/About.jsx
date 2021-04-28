@@ -25,7 +25,8 @@ const About = ({ file }) => (
         mes dernières années en entreprise. J'aime travailler avec Git, faire de
         la <strong>qualité logiciel</strong> et des tests fonctionnels. Tu
         pourra retrouver plus d'information sur mon{' '}
-        <a href="/assets/CV-Guillaume-Briday.pdf">CV</a>.
+        <a href="/assets/CV-Guillaume-Briday.pdf">CV</a> (
+        <a href="/assets/Resume-Guillaume-Briday.pdf">EN</a>).
       </p>
 
       <p>
